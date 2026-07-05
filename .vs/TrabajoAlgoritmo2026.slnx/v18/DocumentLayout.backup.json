@@ -1,33 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\",
+  "WorkspaceRootPath": "C:\\Users\\estudiante\\Desktop\\alg\\laprimadesanty\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|c:\\users\\dylan\\desktop\\proyecto algoritmo\\trabajoalgoritmo2026\\trabajoalgoritmo2026\\frmeditarperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|solutionrelative:trabajoalgoritmo2026\\frmeditarperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|c:\\users\\dylan\\desktop\\proyecto algoritmo\\trabajoalgoritmo2026\\trabajoalgoritmo2026\\frmregistrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|solutionrelative:trabajoalgoritmo2026\\frmregistrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|c:\\users\\dylan\\desktop\\proyecto algoritmo\\trabajoalgoritmo2026\\trabajoalgoritmo2026\\frmcambiocontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|C:\\Users\\estudiante\\Desktop\\alg\\laprimadesanty\\trabajoalgoritmo2026\\frmcambiocontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|solutionrelative:trabajoalgoritmo2026\\frmcambiocontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|c:\\users\\dylan\\desktop\\proyecto algoritmo\\trabajoalgoritmo2026\\trabajoalgoritmo2026\\frmprincipaladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|solutionrelative:trabajoalgoritmo2026\\frmprincipaladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|c:\\users\\estudiante\\desktop\\alg\\laprimadesanty\\trabajoalgoritmo2026\\frmeditarperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|solutionrelative:trabajoalgoritmo2026\\frmeditarperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|c:\\users\\dylan\\desktop\\proyecto algoritmo\\trabajoalgoritmo2026\\trabajoalgoritmo2026\\frmprincipalgeneral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|C:\\Users\\estudiante\\Desktop\\alg\\laprimadesanty\\trabajoalgoritmo2026\\frmregistrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|solutionrelative:trabajoalgoritmo2026\\frmregistrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|C:\\Users\\estudiante\\Desktop\\alg\\laprimadesanty\\trabajoalgoritmo2026\\frmprincipalgeneral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|solutionrelative:trabajoalgoritmo2026\\frmprincipalgeneral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|c:\\users\\dylan\\desktop\\proyecto algoritmo\\trabajoalgoritmo2026\\trabajoalgoritmo2026\\frmrecuperocontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|C:\\Users\\estudiante\\Desktop\\alg\\laprimadesanty\\trabajoalgoritmo2026\\frmrecuperocontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|solutionrelative:trabajoalgoritmo2026\\frmrecuperocontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|c:\\users\\dylan\\desktop\\proyecto algoritmo\\trabajoalgoritmo2026\\trabajoalgoritmo2026\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|C:\\Users\\estudiante\\Desktop\\alg\\laprimadesanty\\trabajoalgoritmo2026\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|solutionrelative:trabajoalgoritmo2026\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -38,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,11 +42,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "frmEditarPerfil.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmEditarPerfil.cs",
+              "DocumentMoniker": "C:\\Users\\estudiante\\Desktop\\alg\\laprimadesanty\\TrabajoAlgoritmo2026\\frmEditarPerfil.cs",
               "RelativeDocumentMoniker": "TrabajoAlgoritmo2026\\frmEditarPerfil.cs",
-              "ToolTip": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmEditarPerfil.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\estudiante\\Desktop\\alg\\laprimadesanty\\TrabajoAlgoritmo2026\\frmEditarPerfil.cs [Dise\u00F1o]",
               "RelativeToolTip": "TrabajoAlgoritmo2026\\frmEditarPerfil.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-01T01:15:01.546Z",
@@ -58,23 +54,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmRegistrarUsuario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmRegistrarUsuario.cs",
-              "RelativeDocumentMoniker": "TrabajoAlgoritmo2026\\frmRegistrarUsuario.cs",
-              "ToolTip": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmRegistrarUsuario.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TrabajoAlgoritmo2026\\frmRegistrarUsuario.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T01:14:06.738Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "frmCambioContrase\u00F1a.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmCambioContrase\u00F1a.cs",
+              "DocumentMoniker": "C:\\Users\\estudiante\\Desktop\\alg\\laprimadesanty\\TrabajoAlgoritmo2026\\frmCambioContrase\u00F1a.cs",
               "RelativeDocumentMoniker": "TrabajoAlgoritmo2026\\frmCambioContrase\u00F1a.cs",
-              "ToolTip": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmCambioContrase\u00F1a.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\estudiante\\Desktop\\alg\\laprimadesanty\\TrabajoAlgoritmo2026\\frmCambioContrase\u00F1a.cs [Dise\u00F1o]",
               "RelativeToolTip": "TrabajoAlgoritmo2026\\frmCambioContrase\u00F1a.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-01T01:13:15.715Z",
@@ -82,51 +66,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmPrincipalAdmin.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmPrincipalAdmin.cs",
-              "RelativeDocumentMoniker": "TrabajoAlgoritmo2026\\frmPrincipalAdmin.cs",
-              "ToolTip": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmPrincipalAdmin.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TrabajoAlgoritmo2026\\frmPrincipalAdmin.cs [Dise\u00F1o]",
+              "DocumentIndex": 2,
+              "Title": "frmRegistrarUsuario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\estudiante\\Desktop\\alg\\laprimadesanty\\TrabajoAlgoritmo2026\\frmRegistrarUsuario.cs",
+              "RelativeDocumentMoniker": "TrabajoAlgoritmo2026\\frmRegistrarUsuario.cs",
+              "ToolTip": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmRegistrarUsuario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmRegistrarUsuario.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T01:11:24.778Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-07-01T01:14:06.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmPrincipalGeneral.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\estudiante\\Desktop\\alg\\laprimadesanty\\TrabajoAlgoritmo2026\\frmPrincipalGeneral.cs",
+              "RelativeDocumentMoniker": "TrabajoAlgoritmo2026\\frmPrincipalGeneral.cs",
+              "ToolTip": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmPrincipalGeneral.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmPrincipalGeneral.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T01:10:18.186Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "frmPrincipalGeneral.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmPrincipalGeneral.cs",
-              "RelativeDocumentMoniker": "TrabajoAlgoritmo2026\\frmPrincipalGeneral.cs",
-              "ToolTip": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmPrincipalGeneral.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TrabajoAlgoritmo2026\\frmPrincipalGeneral.cs [Dise\u00F1o]",
+              "Title": "frmRecuperoContrase\u00F1a.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\estudiante\\Desktop\\alg\\laprimadesanty\\TrabajoAlgoritmo2026\\frmRecuperoContrase\u00F1a.cs",
+              "RelativeDocumentMoniker": "TrabajoAlgoritmo2026\\frmRecuperoContrase\u00F1a.cs",
+              "ToolTip": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmRecuperoContrase\u00F1a.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmRecuperoContrase\u00F1a.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T01:10:18.186Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-07-01T01:07:06.275Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "frmRecuperoContrase\u00F1a.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmRecuperoContrase\u00F1a.cs",
-              "RelativeDocumentMoniker": "TrabajoAlgoritmo2026\\frmRecuperoContrase\u00F1a.cs",
-              "ToolTip": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmRecuperoContrase\u00F1a.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TrabajoAlgoritmo2026\\frmRecuperoContrase\u00F1a.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T01:07:06.275Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "frmLogin.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\estudiante\\Desktop\\alg\\laprimadesanty\\TrabajoAlgoritmo2026\\frmLogin.cs",
               "RelativeDocumentMoniker": "TrabajoAlgoritmo2026\\frmLogin.cs",
               "ToolTip": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmLogin.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TrabajoAlgoritmo2026\\frmLogin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmLogin.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T00:55:49.272Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-07-01T00:55:49.272Z"
             }
           ]
         }
