@@ -1,0 +1,13 @@
+C:\Users\estudiante\Desktop\alg\laprimadesanty\TrabajoAlgoritmo2026\bin\Debug\TrabajoAlgoritmo2026.exe.config
+C:\Users\estudiante\Desktop\alg\laprimadesanty\TrabajoAlgoritmo2026\bin\Debug\TrabajoAlgoritmo2026.exe
+C:\Users\estudiante\Desktop\alg\laprimadesanty\TrabajoAlgoritmo2026\bin\Debug\TrabajoAlgoritmo2026.pdb
+C:\Users\estudiante\Desktop\alg\laprimadesanty\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.csproj.AssemblyReference.cache
+C:\Users\estudiante\Desktop\alg\laprimadesanty\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.frmCambioContraseña.resources
+C:\Users\estudiante\Desktop\alg\laprimadesanty\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.frmEditarPerfil.resources
+C:\Users\estudiante\Desktop\alg\laprimadesanty\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.frmLogin.resources
+C:\Users\estudiante\Desktop\alg\laprimadesanty\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.Properties.Resources.resources
+C:\Users\estudiante\Desktop\alg\laprimadesanty\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.csproj.GenerateResource.cache
+C:\Users\estudiante\Desktop\alg\laprimadesanty\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.csproj.CoreCompileInputs.cache
+C:\Users\estudiante\Desktop\alg\laprimadesanty\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.exe
+C:\Users\estudiante\Desktop\alg\laprimadesanty\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.pdb
+C:\Users\estudiante\Desktop\alg\laprimadesanty\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.frmRecuperoContraseña.resources
