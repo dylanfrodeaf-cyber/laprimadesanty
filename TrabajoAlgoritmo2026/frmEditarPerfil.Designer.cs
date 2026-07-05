@@ -28,33 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblEditPerfil = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // lblEditPerfil
-            // 
-            this.lblEditPerfil.AutoSize = true;
-            this.lblEditPerfil.Location = new System.Drawing.Point(132, 60);
-            this.lblEditPerfil.Name = "lblEditPerfil";
-            this.lblEditPerfil.Size = new System.Drawing.Size(35, 13);
-            this.lblEditPerfil.TabIndex = 0;
-            this.lblEditPerfil.Text = "label1";
             // 
             // frmEditarPerfil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.lblEditPerfil);
             this.Name = "frmEditarPerfil";
-            this.Text = "frmEditarPerfil";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label lblEditPerfil;
     }
 }

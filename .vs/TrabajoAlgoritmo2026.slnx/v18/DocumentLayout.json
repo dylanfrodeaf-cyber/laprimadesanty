@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|c:\\users\\dylan\\desktop\\proyecto algoritmo\\trabajoalgoritmo2026\\trabajoalgoritmo2026\\frmeditarperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|solutionrelative:trabajoalgoritmo2026\\frmeditarperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\trabajoalgoritmo2026\\frmregistrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|solutionrelative:trabajoalgoritmo2026\\frmregistrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\trabajoalgoritmo2026\\frmcambiocontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|solutionrelative:trabajoalgoritmo2026\\frmcambiocontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|c:\\users\\dylan\\desktop\\proyecto algoritmo\\trabajoalgoritmo2026\\trabajoalgoritmo2026\\frmregistrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|solutionrelative:trabajoalgoritmo2026\\frmregistrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\trabajoalgoritmo2026\\frmprincipalgeneral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|solutionrelative:trabajoalgoritmo2026\\frmprincipalgeneral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\trabajoalgoritmo2026\\frmrecuperocontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|solutionrelative:trabajoalgoritmo2026\\frmrecuperocontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\trabajoalgoritmo2026\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|solutionrelative:trabajoalgoritmo2026\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\trabajoalgoritmo2026\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|solutionrelative:trabajoalgoritmo2026\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,69 +31,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmEditarPerfil.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmEditarPerfil.cs",
-              "RelativeDocumentMoniker": "TrabajoAlgoritmo2026\\frmEditarPerfil.cs",
-              "ToolTip": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmEditarPerfil.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TrabajoAlgoritmo2026\\frmEditarPerfil.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T01:15:01.546Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "frmRegistrarUsuario.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmRegistrarUsuario.cs",
               "RelativeDocumentMoniker": "TrabajoAlgoritmo2026\\frmRegistrarUsuario.cs",
               "ToolTip": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmRegistrarUsuario.cs [Dise\u00F1o]",
               "RelativeToolTip": "TrabajoAlgoritmo2026\\frmRegistrarUsuario.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T01:14:06.738Z"
+              "WhenOpened": "2026-07-05T04:32:37.512Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "frmCambioContrase\u00F1a.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmCambioContrase\u00F1a.cs",
-              "RelativeDocumentMoniker": "TrabajoAlgoritmo2026\\frmCambioContrase\u00F1a.cs",
-              "ToolTip": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmCambioContrase\u00F1a.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TrabajoAlgoritmo2026\\frmCambioContrase\u00F1a.cs [Dise\u00F1o]",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\Program.cs",
+              "RelativeDocumentMoniker": "TrabajoAlgoritmo2026\\Program.cs",
+              "ToolTip": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\Program.cs",
+              "RelativeToolTip": "TrabajoAlgoritmo2026\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T01:13:15.715Z"
+              "WhenOpened": "2026-07-05T03:31:50.081Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmPrincipalGeneral.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmPrincipalGeneral.cs",
-              "RelativeDocumentMoniker": "TrabajoAlgoritmo2026\\frmPrincipalGeneral.cs",
-              "ToolTip": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmPrincipalGeneral.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TrabajoAlgoritmo2026\\frmPrincipalGeneral.cs [Dise\u00F1o]",
+              "DocumentIndex": 1,
+              "Title": "frmRegistrarUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmRegistrarUsuario.cs",
+              "RelativeDocumentMoniker": "TrabajoAlgoritmo2026\\frmRegistrarUsuario.cs",
+              "ToolTip": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmRegistrarUsuario.cs",
+              "RelativeToolTip": "TrabajoAlgoritmo2026\\frmRegistrarUsuario.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAawBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T01:10:18.186Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmRecuperoContrase\u00F1a.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmRecuperoContrase\u00F1a.cs",
-              "RelativeDocumentMoniker": "TrabajoAlgoritmo2026\\frmRecuperoContrase\u00F1a.cs",
-              "ToolTip": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmRecuperoContrase\u00F1a.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TrabajoAlgoritmo2026\\frmRecuperoContrase\u00F1a.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T01:07:06.275Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frmLogin.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmLogin.cs",
-              "RelativeDocumentMoniker": "TrabajoAlgoritmo2026\\frmLogin.cs",
-              "ToolTip": "C:\\Users\\Dylan\\Desktop\\Proyecto Algoritmo\\TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026\\frmLogin.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TrabajoAlgoritmo2026\\frmLogin.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T00:55:49.272Z"
+              "WhenOpened": "2026-07-05T03:21:42.176Z",
+              "EditorCaption": ""
             }
           ]
         }

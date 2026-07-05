@@ -1,0 +1,15 @@
+C:\Users\Dylan\Desktop\Proyecto Algoritmo\TrabajoAlgoritmo2026\TrabajoAlgoritmo2026\bin\Debug\TrabajoAlgoritmo2026.exe.config
+C:\Users\Dylan\Desktop\Proyecto Algoritmo\TrabajoAlgoritmo2026\TrabajoAlgoritmo2026\bin\Debug\TrabajoAlgoritmo2026.exe
+C:\Users\Dylan\Desktop\Proyecto Algoritmo\TrabajoAlgoritmo2026\TrabajoAlgoritmo2026\bin\Debug\TrabajoAlgoritmo2026.pdb
+C:\Users\Dylan\Desktop\Proyecto Algoritmo\TrabajoAlgoritmo2026\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.csproj.AssemblyReference.cache
+C:\Users\Dylan\Desktop\Proyecto Algoritmo\TrabajoAlgoritmo2026\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.frmEditarPerfil.resources
+C:\Users\Dylan\Desktop\Proyecto Algoritmo\TrabajoAlgoritmo2026\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.frmLogin.resources
+C:\Users\Dylan\Desktop\Proyecto Algoritmo\TrabajoAlgoritmo2026\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.frmRegistrarUsuario.resources
+C:\Users\Dylan\Desktop\Proyecto Algoritmo\TrabajoAlgoritmo2026\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.Properties.Resources.resources
+C:\Users\Dylan\Desktop\Proyecto Algoritmo\TrabajoAlgoritmo2026\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.csproj.GenerateResource.cache
+C:\Users\Dylan\Desktop\Proyecto Algoritmo\TrabajoAlgoritmo2026\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.csproj.CoreCompileInputs.cache
+C:\Users\Dylan\Desktop\Proyecto Algoritmo\TrabajoAlgoritmo2026\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.exe
+C:\Users\Dylan\Desktop\Proyecto Algoritmo\TrabajoAlgoritmo2026\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.pdb
+C:\Users\Dylan\Desktop\Proyecto Algoritmo\TrabajoAlgoritmo2026\TrabajoAlgoritmo2026\bin\Debug\aa-ER\TrabajoAlgoritmo2026.resources.dll
+C:\Users\Dylan\Desktop\Proyecto Algoritmo\TrabajoAlgoritmo2026\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.frmRegistrarUsuario.aa-ER.resources
+C:\Users\Dylan\Desktop\Proyecto Algoritmo\TrabajoAlgoritmo2026\TrabajoAlgoritmo2026\obj\Debug\aa-ER\TrabajoAlgoritmo2026.resources.dll
