@@ -28,20 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.nombre = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // nombre
+            // 
+            this.nombre.AutoSize = true;
+            this.nombre.Location = new System.Drawing.Point(355, 175);
+            this.nombre.Name = "nombre";
+            this.nombre.Size = new System.Drawing.Size(29, 13);
+            this.nombre.TabIndex = 0;
+            this.nombre.Text = "login";
+            this.nombre.Click += new System.EventHandler(this.nombre_Click);
             // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.nombre);
             this.Name = "frmLogin";
             this.Text = "Login";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Label nombre;
     }
 }
 

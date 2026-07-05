@@ -16,5 +16,10 @@ namespace TrabajoAlgoritmo2026
         {
             InitializeComponent();
         }
+
+        private void nombre_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
