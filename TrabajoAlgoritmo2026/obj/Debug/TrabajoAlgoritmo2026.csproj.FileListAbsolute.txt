@@ -13,3 +13,4 @@ C:\Users\Dylan\Desktop\Proyecto Algoritmo\TrabajoAlgoritmo2026\TrabajoAlgoritmo2
 C:\Users\Dylan\Desktop\Proyecto Algoritmo\TrabajoAlgoritmo2026\TrabajoAlgoritmo2026\bin\Debug\aa-ER\TrabajoAlgoritmo2026.resources.dll
 C:\Users\Dylan\Desktop\Proyecto Algoritmo\TrabajoAlgoritmo2026\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.frmRegistrarUsuario.aa-ER.resources
 C:\Users\Dylan\Desktop\Proyecto Algoritmo\TrabajoAlgoritmo2026\TrabajoAlgoritmo2026\obj\Debug\aa-ER\TrabajoAlgoritmo2026.resources.dll
+C:\Users\Dylan\Desktop\Proyecto Algoritmo\TrabajoAlgoritmo2026\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.frmPrincipalAdmin.resources

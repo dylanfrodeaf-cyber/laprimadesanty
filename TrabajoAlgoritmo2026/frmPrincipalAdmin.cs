@@ -16,5 +16,9 @@ namespace TrabajoAlgoritmo2026
         {
             InitializeComponent();
         }
+
+
+
+
     }
 }
