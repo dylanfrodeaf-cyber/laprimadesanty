@@ -11,3 +11,5 @@ C:\Users\estudiante\Desktop\alg\laprimadesanty\TrabajoAlgoritmo2026\obj\Debug\Tr
 C:\Users\estudiante\Desktop\alg\laprimadesanty\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.exe
 C:\Users\estudiante\Desktop\alg\laprimadesanty\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.pdb
 C:\Users\estudiante\Desktop\alg\laprimadesanty\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.frmRecuperoContraseña.resources
+C:\Users\estudiante\Desktop\alg\laprimadesanty\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.frmPrincipalGeneral.resources
+C:\Users\estudiante\Desktop\alg\laprimadesanty\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.Recupero_nuevo.resources

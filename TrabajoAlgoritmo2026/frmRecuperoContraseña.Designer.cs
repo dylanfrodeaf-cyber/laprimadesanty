@@ -53,9 +53,9 @@
             this.lblIngresarmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIngresarmail.Location = new System.Drawing.Point(64, 21);
             this.lblIngresarmail.Name = "lblIngresarmail";
-            this.lblIngresarmail.Size = new System.Drawing.Size(137, 24);
+            this.lblIngresarmail.Size = new System.Drawing.Size(256, 24);
             this.lblIngresarmail.TabIndex = 1;
-            this.lblIngresarmail.Text = "Ingrese su Mail";
+            this.lblIngresarmail.Text = "Ingrese su correo electronico";
             // 
             // chbRecordarcorreo
             // 
@@ -71,16 +71,16 @@
             // txtMail
             // 
             this.txtMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMail.Location = new System.Drawing.Point(68, 58);
+            this.txtMail.Location = new System.Drawing.Point(68, 59);
             this.txtMail.Name = "txtMail";
-            this.txtMail.Size = new System.Drawing.Size(218, 29);
+            this.txtMail.Size = new System.Drawing.Size(246, 29);
             this.txtMail.TabIndex = 3;
             // 
             // lblUltimacontraseña
             // 
             this.lblUltimacontraseña.AutoSize = true;
             this.lblUltimacontraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUltimacontraseña.Location = new System.Drawing.Point(64, 143);
+            this.lblUltimacontraseña.Location = new System.Drawing.Point(64, 147);
             this.lblUltimacontraseña.Name = "lblUltimacontraseña";
             this.lblUltimacontraseña.Size = new System.Drawing.Size(250, 24);
             this.lblUltimacontraseña.TabIndex = 5;
@@ -89,9 +89,9 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(68, 189);
+            this.textBox1.Location = new System.Drawing.Point(68, 187);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(246, 29);
+            this.textBox1.Size = new System.Drawing.Size(252, 29);
             this.textBox1.TabIndex = 6;
             // 
             // frmRecuperoContraseña
@@ -106,7 +106,8 @@
             this.Controls.Add(this.lblIngresarmail);
             this.Controls.Add(this.btnConfirmar);
             this.Name = "frmRecuperoContraseña";
-            this.Text = "frmRecupero";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "       ";
             this.ResumeLayout(false);
             this.PerformLayout();
 
