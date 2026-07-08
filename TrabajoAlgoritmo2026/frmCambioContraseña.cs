@@ -16,5 +16,10 @@ namespace TrabajoAlgoritmo2026
         {
             InitializeComponent();
         }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

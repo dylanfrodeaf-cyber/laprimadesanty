@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\OneDrive\\Desktop\\algo26\\laprimadesanty\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|c:\\users\\user\\onedrive\\desktop\\algo26\\laprimadesanty\\trabajoalgoritmo2026\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|solutionrelative:trabajoalgoritmo2026\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|c:\\users\\user\\onedrive\\desktop\\algo26\\laprimadesanty\\trabajoalgoritmo2026\\frmcambiocontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|solutionrelative:trabajoalgoritmo2026\\frmcambiocontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|C:\\Users\\USER\\OneDrive\\Desktop\\algo26\\laprimadesanty\\trabajoalgoritmo2026\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|c:\\users\\user\\onedrive\\desktop\\algo26\\laprimadesanty\\trabajoalgoritmo2026\\frmcambiocontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|solutionrelative:trabajoalgoritmo2026\\frmcambiocontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|c:\\users\\user\\onedrive\\desktop\\algo26\\laprimadesanty\\trabajoalgoritmo2026\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|solutionrelative:trabajoalgoritmo2026\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|c:\\users\\user\\onedrive\\desktop\\algo26\\laprimadesanty\\trabajoalgoritmo2026\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A059D1-32D3-4B9E-974B-E95ABB2DC7B1}|TrabajoAlgoritmo2026\\TrabajoAlgoritmo2026.csproj|solutionrelative:trabajoalgoritmo2026\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,27 +34,52 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmCambioContrase\u00F1a.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\algo26\\laprimadesanty\\TrabajoAlgoritmo2026\\frmCambioContrase\u00F1a.cs",
+              "RelativeDocumentMoniker": "TrabajoAlgoritmo2026\\frmCambioContrase\u00F1a.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\algo26\\laprimadesanty\\TrabajoAlgoritmo2026\\frmCambioContrase\u00F1a.cs",
+              "RelativeToolTip": "TrabajoAlgoritmo2026\\frmCambioContrase\u00F1a.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T02:25:58.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "frmCambioContrase\u00F1a.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\algo26\\laprimadesanty\\TrabajoAlgoritmo2026\\frmCambioContrase\u00F1a.cs",
+              "RelativeDocumentMoniker": "TrabajoAlgoritmo2026\\frmCambioContrase\u00F1a.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\algo26\\laprimadesanty\\TrabajoAlgoritmo2026\\frmCambioContrase\u00F1a.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TrabajoAlgoritmo2026\\frmCambioContrase\u00F1a.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T02:18:45.85Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "frmLogin.cs",
               "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\algo26\\laprimadesanty\\TrabajoAlgoritmo2026\\frmLogin.cs",
               "RelativeDocumentMoniker": "TrabajoAlgoritmo2026\\frmLogin.cs",
               "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\algo26\\laprimadesanty\\TrabajoAlgoritmo2026\\frmLogin.cs",
               "RelativeToolTip": "TrabajoAlgoritmo2026\\frmLogin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-05T02:46:17.798Z",
+              "WhenOpened": "2026-07-08T02:06:07.327Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "frmLogin.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\algo26\\laprimadesanty\\TrabajoAlgoritmo2026\\frmLogin.cs",
               "RelativeDocumentMoniker": "TrabajoAlgoritmo2026\\frmLogin.cs",
               "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\algo26\\laprimadesanty\\TrabajoAlgoritmo2026\\frmLogin.cs [Dise\u00F1o]",
               "RelativeToolTip": "TrabajoAlgoritmo2026\\frmLogin.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T00:55:49.272Z",
+              "WhenOpened": "2026-07-08T02:02:48.604Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]
