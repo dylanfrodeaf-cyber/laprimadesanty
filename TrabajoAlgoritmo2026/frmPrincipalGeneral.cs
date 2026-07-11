@@ -16,5 +16,19 @@ namespace TrabajoAlgoritmo2026
         {
             InitializeComponent();
         }
+
+        private void btnCerrarsesion_Click(object sender, EventArgs e)
+        {
+            DialogResult resultado = MessageBox.Show(
+       "¿Está seguro que desea cerrar sesión?",
+       "Confirmación",
+       MessageBoxButtons.YesNo,
+       MessageBoxIcon.Question);
+
+            if (resultado == DialogResult.Yes)
+            {
+                this.Close();
+            }
+        }
     }
 }

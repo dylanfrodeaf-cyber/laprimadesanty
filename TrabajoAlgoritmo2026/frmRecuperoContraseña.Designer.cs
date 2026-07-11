@@ -28,30 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnConfirmar = new System.Windows.Forms.Button();
+            this.btnCancelar = new System.Windows.Forms.Button();
             this.lblIngresarmail = new System.Windows.Forms.Label();
             this.chbRecordarcorreo = new System.Windows.Forms.CheckBox();
-            this.txtMail = new System.Windows.Forms.TextBox();
-            this.lblUltimacontraseña = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtCorreo = new System.Windows.Forms.TextBox();
+            this.btnBuscar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnConfirmar
+            // btnCancelar
             // 
-            this.btnConfirmar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConfirmar.Location = new System.Drawing.Point(246, 254);
-            this.btnConfirmar.Name = "btnConfirmar";
-            this.btnConfirmar.Size = new System.Drawing.Size(110, 32);
-            this.btnConfirmar.TabIndex = 0;
-            this.btnConfirmar.Text = "Confirmar";
-            this.btnConfirmar.UseVisualStyleBackColor = true;
-            this.btnConfirmar.Click += new System.EventHandler(this.button1_Click);
+            this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelar.Location = new System.Drawing.Point(220, 241);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(94, 36);
+            this.btnCancelar.TabIndex = 0;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click_1);
             // 
             // lblIngresarmail
             // 
             this.lblIngresarmail.AutoSize = true;
             this.lblIngresarmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIngresarmail.Location = new System.Drawing.Point(64, 21);
+            this.lblIngresarmail.Location = new System.Drawing.Point(138, 18);
             this.lblIngresarmail.Name = "lblIngresarmail";
             this.lblIngresarmail.Size = new System.Drawing.Size(256, 24);
             this.lblIngresarmail.TabIndex = 1;
@@ -61,50 +60,45 @@
             // 
             this.chbRecordarcorreo.AutoSize = true;
             this.chbRecordarcorreo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chbRecordarcorreo.Location = new System.Drawing.Point(68, 109);
+            this.chbRecordarcorreo.Location = new System.Drawing.Point(142, 123);
             this.chbRecordarcorreo.Name = "chbRecordarcorreo";
             this.chbRecordarcorreo.Size = new System.Drawing.Size(146, 24);
             this.chbRecordarcorreo.TabIndex = 2;
             this.chbRecordarcorreo.Text = "Recordar Correo";
             this.chbRecordarcorreo.UseVisualStyleBackColor = true;
             // 
-            // txtMail
+            // txtCorreo
             // 
-            this.txtMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMail.Location = new System.Drawing.Point(68, 59);
-            this.txtMail.Name = "txtMail";
-            this.txtMail.Size = new System.Drawing.Size(246, 29);
-            this.txtMail.TabIndex = 3;
+            this.txtCorreo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCorreo.Location = new System.Drawing.Point(142, 74);
+            this.txtCorreo.MaxLength = 30;
+            this.txtCorreo.Name = "txtCorreo";
+            this.txtCorreo.Size = new System.Drawing.Size(246, 29);
+            this.txtCorreo.TabIndex = 3;
+            this.txtCorreo.TextChanged += new System.EventHandler(this.txtCorreo_TextChanged);
+            this.txtCorreo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCorreo_KeyPress);
             // 
-            // lblUltimacontraseña
+            // btnBuscar
             // 
-            this.lblUltimacontraseña.AutoSize = true;
-            this.lblUltimacontraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUltimacontraseña.Location = new System.Drawing.Point(64, 147);
-            this.lblUltimacontraseña.Name = "lblUltimacontraseña";
-            this.lblUltimacontraseña.Size = new System.Drawing.Size(250, 24);
-            this.lblUltimacontraseña.TabIndex = 5;
-            this.lblUltimacontraseña.Text = "Ingrese su ultima contraseña";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(68, 187);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(252, 29);
-            this.textBox1.TabIndex = 6;
+            this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscar.Location = new System.Drawing.Point(220, 176);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(94, 36);
+            this.btnBuscar.TabIndex = 4;
+            this.btnBuscar.Text = " ";
+            this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // frmRecuperoContraseña
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.lblUltimacontraseña);
-            this.Controls.Add(this.txtMail);
+            this.Controls.Add(this.btnBuscar);
+            this.Controls.Add(this.txtCorreo);
             this.Controls.Add(this.chbRecordarcorreo);
             this.Controls.Add(this.lblIngresarmail);
-            this.Controls.Add(this.btnConfirmar);
+            this.Controls.Add(this.btnCancelar);
             this.Name = "frmRecuperoContraseña";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "       ";
@@ -115,11 +109,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnConfirmar;
+        private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Label lblIngresarmail;
         private System.Windows.Forms.CheckBox chbRecordarcorreo;
-        private System.Windows.Forms.TextBox txtMail;
-        private System.Windows.Forms.Label lblUltimacontraseña;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtCorreo;
+        private System.Windows.Forms.Button btnBuscar;
     }
 }

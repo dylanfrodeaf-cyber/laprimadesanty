@@ -48,7 +48,7 @@
             // 
             // btnPropuestasdisponibles
             // 
-            this.btnPropuestasdisponibles.Location = new System.Drawing.Point(103, 105);
+            this.btnPropuestasdisponibles.Location = new System.Drawing.Point(102, 81);
             this.btnPropuestasdisponibles.Name = "btnPropuestasdisponibles";
             this.btnPropuestasdisponibles.Size = new System.Drawing.Size(191, 36);
             this.btnPropuestasdisponibles.TabIndex = 1;
@@ -57,7 +57,7 @@
             // 
             // btnTrabajosolicitado
             // 
-            this.btnTrabajosolicitado.Location = new System.Drawing.Point(103, 173);
+            this.btnTrabajosolicitado.Location = new System.Drawing.Point(103, 132);
             this.btnTrabajosolicitado.Name = "btnTrabajosolicitado";
             this.btnTrabajosolicitado.Size = new System.Drawing.Size(191, 36);
             this.btnTrabajosolicitado.TabIndex = 2;
@@ -66,7 +66,7 @@
             // 
             // btnNotificaciones
             // 
-            this.btnNotificaciones.Location = new System.Drawing.Point(103, 232);
+            this.btnNotificaciones.Location = new System.Drawing.Point(102, 185);
             this.btnNotificaciones.Name = "btnNotificaciones";
             this.btnNotificaciones.Size = new System.Drawing.Size(191, 36);
             this.btnNotificaciones.TabIndex = 3;
@@ -75,7 +75,7 @@
             // 
             // btnCerrarsesion
             // 
-            this.btnCerrarsesion.Location = new System.Drawing.Point(103, 286);
+            this.btnCerrarsesion.Location = new System.Drawing.Point(102, 238);
             this.btnCerrarsesion.Name = "btnCerrarsesion";
             this.btnCerrarsesion.Size = new System.Drawing.Size(191, 36);
             this.btnCerrarsesion.TabIndex = 4;

@@ -28,80 +28,82 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnConfirmar = new System.Windows.Forms.Button();
-            this.lblUsuario = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.chkRecordarcontra = new System.Windows.Forms.CheckBox();
-            this.txtUsuario = new System.Windows.Forms.TextBox();
-            this.txtContraseña = new System.Windows.Forms.TextBox();
+            this.lblOpcion = new System.Windows.Forms.Label();
+            this.btnCerrarsesion = new System.Windows.Forms.Button();
+            this.btnNotificaciones = new System.Windows.Forms.Button();
+            this.btnTrabajosolicitado = new System.Windows.Forms.Button();
+            this.btnPropuestasdisponibles = new System.Windows.Forms.Button();
+            this.lblBienvenidos = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // btnConfirmar
+            // lblOpcion
             // 
-            this.btnConfirmar.Location = new System.Drawing.Point(198, 239);
-            this.btnConfirmar.Name = "btnConfirmar";
-            this.btnConfirmar.Size = new System.Drawing.Size(161, 42);
-            this.btnConfirmar.TabIndex = 0;
-            this.btnConfirmar.Text = "Confirmar";
-            this.btnConfirmar.UseVisualStyleBackColor = true;
+            this.lblOpcion.AutoSize = true;
+            this.lblOpcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOpcion.Location = new System.Drawing.Point(97, 58);
+            this.lblOpcion.Name = "lblOpcion";
+            this.lblOpcion.Size = new System.Drawing.Size(124, 20);
+            this.lblOpcion.TabIndex = 11;
+            this.lblOpcion.Text = "Elija una opcion:";
             // 
-            // lblUsuario
+            // btnCerrarsesion
             // 
-            this.lblUsuario.AutoSize = true;
-            this.lblUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsuario.Location = new System.Drawing.Point(84, 9);
-            this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(202, 20);
-            this.lblUsuario.TabIndex = 2;
-            this.lblUsuario.Text = "Ingrese su usuario o correo";
+            this.btnCerrarsesion.Location = new System.Drawing.Point(101, 238);
+            this.btnCerrarsesion.Name = "btnCerrarsesion";
+            this.btnCerrarsesion.Size = new System.Drawing.Size(191, 36);
+            this.btnCerrarsesion.TabIndex = 10;
+            this.btnCerrarsesion.Text = "Cerrar Sesion ";
+            this.btnCerrarsesion.UseVisualStyleBackColor = true;
+            this.btnCerrarsesion.Click += new System.EventHandler(this.btnCerrarsesion_Click);
             // 
-            // label2
+            // btnNotificaciones
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(84, 86);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(168, 20);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Ingrese su contraseña";
+            this.btnNotificaciones.Location = new System.Drawing.Point(101, 185);
+            this.btnNotificaciones.Name = "btnNotificaciones";
+            this.btnNotificaciones.Size = new System.Drawing.Size(191, 36);
+            this.btnNotificaciones.TabIndex = 9;
+            this.btnNotificaciones.Text = "Editar perfil";
+            this.btnNotificaciones.UseVisualStyleBackColor = true;
             // 
-            // chkRecordarcontra
+            // btnTrabajosolicitado
             // 
-            this.chkRecordarcontra.AutoSize = true;
-            this.chkRecordarcontra.Location = new System.Drawing.Point(88, 175);
-            this.chkRecordarcontra.Name = "chkRecordarcontra";
-            this.chkRecordarcontra.Size = new System.Drawing.Size(126, 17);
-            this.chkRecordarcontra.TabIndex = 4;
-            this.chkRecordarcontra.Text = "Recordar contraseña";
-            this.chkRecordarcontra.UseVisualStyleBackColor = true;
+            this.btnTrabajosolicitado.Location = new System.Drawing.Point(102, 132);
+            this.btnTrabajosolicitado.Name = "btnTrabajosolicitado";
+            this.btnTrabajosolicitado.Size = new System.Drawing.Size(191, 36);
+            this.btnTrabajosolicitado.TabIndex = 8;
+            this.btnTrabajosolicitado.Text = "Postulaciones";
+            this.btnTrabajosolicitado.UseVisualStyleBackColor = true;
             // 
-            // txtUsuario
+            // btnPropuestasdisponibles
             // 
-            this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.Location = new System.Drawing.Point(88, 47);
-            this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(164, 26);
-            this.txtUsuario.TabIndex = 5;
+            this.btnPropuestasdisponibles.Location = new System.Drawing.Point(101, 81);
+            this.btnPropuestasdisponibles.Name = "btnPropuestasdisponibles";
+            this.btnPropuestasdisponibles.Size = new System.Drawing.Size(191, 36);
+            this.btnPropuestasdisponibles.TabIndex = 7;
+            this.btnPropuestasdisponibles.Text = "Buscar empleo";
+            this.btnPropuestasdisponibles.UseVisualStyleBackColor = true;
             // 
-            // txtContraseña
+            // lblBienvenidos
             // 
-            this.txtContraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtContraseña.Location = new System.Drawing.Point(88, 125);
-            this.txtContraseña.Name = "txtContraseña";
-            this.txtContraseña.Size = new System.Drawing.Size(164, 26);
-            this.txtContraseña.TabIndex = 6;
+            this.lblBienvenidos.AutoSize = true;
+            this.lblBienvenidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBienvenidos.Location = new System.Drawing.Point(192, 9);
+            this.lblBienvenidos.Name = "lblBienvenidos";
+            this.lblBienvenidos.Size = new System.Drawing.Size(119, 25);
+            this.lblBienvenidos.TabIndex = 6;
+            this.lblBienvenidos.Text = "Bienvenido";
             // 
             // frmPrincipalGeneral
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.txtContraseña);
-            this.Controls.Add(this.txtUsuario);
-            this.Controls.Add(this.chkRecordarcontra);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.lblUsuario);
-            this.Controls.Add(this.btnConfirmar);
+            this.Controls.Add(this.lblOpcion);
+            this.Controls.Add(this.btnCerrarsesion);
+            this.Controls.Add(this.btnNotificaciones);
+            this.Controls.Add(this.btnTrabajosolicitado);
+            this.Controls.Add(this.btnPropuestasdisponibles);
+            this.Controls.Add(this.lblBienvenidos);
             this.Name = "frmPrincipalGeneral";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmPrincipalGeneral";
@@ -112,11 +114,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnConfirmar;
-        private System.Windows.Forms.Label lblUsuario;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.CheckBox chkRecordarcontra;
-        private System.Windows.Forms.TextBox txtUsuario;
-        private System.Windows.Forms.TextBox txtContraseña;
+        private System.Windows.Forms.Label lblOpcion;
+        private System.Windows.Forms.Button btnCerrarsesion;
+        private System.Windows.Forms.Button btnNotificaciones;
+        private System.Windows.Forms.Button btnTrabajosolicitado;
+        private System.Windows.Forms.Button btnPropuestasdisponibles;
+        private System.Windows.Forms.Label lblBienvenidos;
     }
 }
