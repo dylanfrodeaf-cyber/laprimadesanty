@@ -31,5 +31,20 @@ namespace TrabajoAlgoritmo2026
         {
 
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fin(object sender, FormClosingEventArgs e)
+        {
+
+        }
+
+        private void fin(object sender, FormClosedEventArgs e)
+        {
+            
+        }
     }
 }

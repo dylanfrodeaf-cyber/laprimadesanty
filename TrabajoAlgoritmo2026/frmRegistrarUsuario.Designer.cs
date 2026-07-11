@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmRegistrarUsuario));
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnRegistrar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lblTipoUsuari = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lblFechaNaci = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblTelefono = new System.Windows.Forms.Label();
             this.txtTelefono = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblDNI = new System.Windows.Forms.Label();
             this.lblEmail = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblGenero = new System.Windows.Forms.Label();
             this.txtGenero = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtDNI = new System.Windows.Forms.TextBox();
@@ -48,47 +48,47 @@
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.lblNombre = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.label24 = new System.Windows.Forms.Label();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.txtDep = new System.Windows.Forms.TextBox();
+            this.lblDep = new System.Windows.Forms.Label();
+            this.lblPiso = new System.Windows.Forms.Label();
+            this.txtPiso = new System.Windows.Forms.TextBox();
+            this.lblAltura = new System.Windows.Forms.Label();
+            this.txtAltura = new System.Windows.Forms.TextBox();
+            this.lblLocalidad = new System.Windows.Forms.Label();
+            this.txtLocalidad = new System.Windows.Forms.TextBox();
+            this.lblPartido = new System.Windows.Forms.Label();
+            this.lblCodPostal = new System.Windows.Forms.Label();
+            this.lblCalle = new System.Windows.Forms.Label();
+            this.txtCalle = new System.Windows.Forms.TextBox();
+            this.txtCodPostal = new System.Windows.Forms.TextBox();
+            this.txtPartido = new System.Windows.Forms.TextBox();
+            this.txtProvincia = new System.Windows.Forms.TextBox();
+            this.lblProvincia = new System.Windows.Forms.Label();
+            this.txtNacionalidad = new System.Windows.Forms.TextBox();
+            this.lblNacionalidad = new System.Windows.Forms.Label();
+            this.btnLimpiar = new System.Windows.Forms.Button();
+            this.btnVolver = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // btnRegistrar
             // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.btnRegistrar, "btnRegistrar");
+            this.btnRegistrar.Name = "btnRegistrar";
+            this.btnRegistrar.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.lblTipoUsuari);
             this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.lblFechaNaci);
             this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.lblTelefono);
             this.groupBox1.Controls.Add(this.txtTelefono);
-            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.lblDNI);
             this.groupBox1.Controls.Add(this.lblEmail);
-            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.lblGenero);
             this.groupBox1.Controls.Add(this.txtGenero);
             this.groupBox1.Controls.Add(this.txtEmail);
             this.groupBox1.Controls.Add(this.txtDNI);
@@ -100,50 +100,51 @@
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
-            // label5
+            // lblTipoUsuari
             // 
-            resources.ApplyResources(this.label5, "label5");
-            this.label5.Name = "label5";
+            resources.ApplyResources(this.lblTipoUsuari, "lblTipoUsuari");
+            this.lblTipoUsuari.Name = "lblTipoUsuari";
             // 
             // textBox2
             // 
             resources.ApplyResources(this.textBox2, "textBox2");
             this.textBox2.Name = "textBox2";
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // label4
+            // lblFechaNaci
             // 
-            resources.ApplyResources(this.label4, "label4");
-            this.label4.Name = "label4";
+            resources.ApplyResources(this.lblFechaNaci, "lblFechaNaci");
+            this.lblFechaNaci.Name = "lblFechaNaci";
             // 
             // textBox1
             // 
             resources.ApplyResources(this.textBox1, "textBox1");
             this.textBox1.Name = "textBox1";
             // 
-            // label3
+            // lblTelefono
             // 
-            resources.ApplyResources(this.label3, "label3");
-            this.label3.Name = "label3";
+            resources.ApplyResources(this.lblTelefono, "lblTelefono");
+            this.lblTelefono.Name = "lblTelefono";
             // 
             // txtTelefono
             // 
             resources.ApplyResources(this.txtTelefono, "txtTelefono");
             this.txtTelefono.Name = "txtTelefono";
             // 
-            // label1
+            // lblDNI
             // 
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.Name = "label1";
+            resources.ApplyResources(this.lblDNI, "lblDNI");
+            this.lblDNI.Name = "lblDNI";
             // 
             // lblEmail
             // 
             resources.ApplyResources(this.lblEmail, "lblEmail");
             this.lblEmail.Name = "lblEmail";
             // 
-            // label2
+            // lblGenero
             // 
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.Name = "label2";
+            resources.ApplyResources(this.lblGenero, "lblGenero");
+            this.lblGenero.Name = "lblGenero";
             // 
             // txtGenero
             // 
@@ -174,6 +175,7 @@
             // 
             resources.ApplyResources(this.txtNombre, "txtNombre");
             this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Tag = "";
             // 
             // lblNombre
             // 
@@ -182,142 +184,147 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.textBox12);
-            this.groupBox2.Controls.Add(this.label17);
-            this.groupBox2.Controls.Add(this.label18);
-            this.groupBox2.Controls.Add(this.textBox13);
-            this.groupBox2.Controls.Add(this.label19);
-            this.groupBox2.Controls.Add(this.textBox14);
-            this.groupBox2.Controls.Add(this.label20);
-            this.groupBox2.Controls.Add(this.textBox15);
-            this.groupBox2.Controls.Add(this.label21);
-            this.groupBox2.Controls.Add(this.label22);
-            this.groupBox2.Controls.Add(this.label23);
-            this.groupBox2.Controls.Add(this.textBox16);
-            this.groupBox2.Controls.Add(this.textBox17);
-            this.groupBox2.Controls.Add(this.textBox18);
-            this.groupBox2.Controls.Add(this.textBox19);
-            this.groupBox2.Controls.Add(this.label24);
-            this.groupBox2.Controls.Add(this.textBox20);
-            this.groupBox2.Controls.Add(this.label25);
+            this.groupBox2.Controls.Add(this.txtDep);
+            this.groupBox2.Controls.Add(this.lblDep);
+            this.groupBox2.Controls.Add(this.lblPiso);
+            this.groupBox2.Controls.Add(this.txtPiso);
+            this.groupBox2.Controls.Add(this.lblAltura);
+            this.groupBox2.Controls.Add(this.txtAltura);
+            this.groupBox2.Controls.Add(this.lblLocalidad);
+            this.groupBox2.Controls.Add(this.txtLocalidad);
+            this.groupBox2.Controls.Add(this.lblPartido);
+            this.groupBox2.Controls.Add(this.lblCodPostal);
+            this.groupBox2.Controls.Add(this.lblCalle);
+            this.groupBox2.Controls.Add(this.txtCalle);
+            this.groupBox2.Controls.Add(this.txtCodPostal);
+            this.groupBox2.Controls.Add(this.txtPartido);
+            this.groupBox2.Controls.Add(this.txtProvincia);
+            this.groupBox2.Controls.Add(this.lblProvincia);
+            this.groupBox2.Controls.Add(this.txtNacionalidad);
+            this.groupBox2.Controls.Add(this.lblNacionalidad);
             resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
             // 
-            // textBox12
+            // txtDep
             // 
-            resources.ApplyResources(this.textBox12, "textBox12");
-            this.textBox12.Name = "textBox12";
+            resources.ApplyResources(this.txtDep, "txtDep");
+            this.txtDep.Name = "txtDep";
             // 
-            // label17
+            // lblDep
             // 
-            resources.ApplyResources(this.label17, "label17");
-            this.label17.Name = "label17";
+            resources.ApplyResources(this.lblDep, "lblDep");
+            this.lblDep.Name = "lblDep";
             // 
-            // label18
+            // lblPiso
             // 
-            resources.ApplyResources(this.label18, "label18");
-            this.label18.Name = "label18";
+            resources.ApplyResources(this.lblPiso, "lblPiso");
+            this.lblPiso.Name = "lblPiso";
             // 
-            // textBox13
+            // txtPiso
             // 
-            resources.ApplyResources(this.textBox13, "textBox13");
-            this.textBox13.Name = "textBox13";
+            resources.ApplyResources(this.txtPiso, "txtPiso");
+            this.txtPiso.Name = "txtPiso";
             // 
-            // label19
+            // lblAltura
             // 
-            resources.ApplyResources(this.label19, "label19");
-            this.label19.Name = "label19";
+            resources.ApplyResources(this.lblAltura, "lblAltura");
+            this.lblAltura.Name = "lblAltura";
             // 
-            // textBox14
+            // txtAltura
             // 
-            resources.ApplyResources(this.textBox14, "textBox14");
-            this.textBox14.Name = "textBox14";
+            resources.ApplyResources(this.txtAltura, "txtAltura");
+            this.txtAltura.Name = "txtAltura";
             // 
-            // label20
+            // lblLocalidad
             // 
-            resources.ApplyResources(this.label20, "label20");
-            this.label20.Name = "label20";
+            resources.ApplyResources(this.lblLocalidad, "lblLocalidad");
+            this.lblLocalidad.Name = "lblLocalidad";
             // 
-            // textBox15
+            // txtLocalidad
             // 
-            resources.ApplyResources(this.textBox15, "textBox15");
-            this.textBox15.Name = "textBox15";
+            resources.ApplyResources(this.txtLocalidad, "txtLocalidad");
+            this.txtLocalidad.Name = "txtLocalidad";
             // 
-            // label21
+            // lblPartido
             // 
-            resources.ApplyResources(this.label21, "label21");
-            this.label21.Name = "label21";
-            this.label21.Click += new System.EventHandler(this.label21_Click);
+            resources.ApplyResources(this.lblPartido, "lblPartido");
+            this.lblPartido.Name = "lblPartido";
+            this.lblPartido.Click += new System.EventHandler(this.label21_Click);
             // 
-            // label22
+            // lblCodPostal
             // 
-            resources.ApplyResources(this.label22, "label22");
-            this.label22.Name = "label22";
+            resources.ApplyResources(this.lblCodPostal, "lblCodPostal");
+            this.lblCodPostal.Name = "lblCodPostal";
             // 
-            // label23
+            // lblCalle
             // 
-            resources.ApplyResources(this.label23, "label23");
-            this.label23.Name = "label23";
+            resources.ApplyResources(this.lblCalle, "lblCalle");
+            this.lblCalle.Name = "lblCalle";
             // 
-            // textBox16
+            // txtCalle
             // 
-            resources.ApplyResources(this.textBox16, "textBox16");
-            this.textBox16.Name = "textBox16";
+            resources.ApplyResources(this.txtCalle, "txtCalle");
+            this.txtCalle.Name = "txtCalle";
             // 
-            // textBox17
+            // txtCodPostal
             // 
-            resources.ApplyResources(this.textBox17, "textBox17");
-            this.textBox17.Name = "textBox17";
+            resources.ApplyResources(this.txtCodPostal, "txtCodPostal");
+            this.txtCodPostal.Name = "txtCodPostal";
             // 
-            // textBox18
+            // txtPartido
             // 
-            resources.ApplyResources(this.textBox18, "textBox18");
-            this.textBox18.Name = "textBox18";
+            resources.ApplyResources(this.txtPartido, "txtPartido");
+            this.txtPartido.Name = "txtPartido";
             // 
-            // textBox19
+            // txtProvincia
             // 
-            resources.ApplyResources(this.textBox19, "textBox19");
-            this.textBox19.Name = "textBox19";
+            resources.ApplyResources(this.txtProvincia, "txtProvincia");
+            this.txtProvincia.Name = "txtProvincia";
             // 
-            // label24
+            // lblProvincia
             // 
-            resources.ApplyResources(this.label24, "label24");
-            this.label24.Name = "label24";
+            resources.ApplyResources(this.lblProvincia, "lblProvincia");
+            this.lblProvincia.Name = "lblProvincia";
             // 
-            // textBox20
+            // txtNacionalidad
             // 
-            resources.ApplyResources(this.textBox20, "textBox20");
-            this.textBox20.Name = "textBox20";
+            resources.ApplyResources(this.txtNacionalidad, "txtNacionalidad");
+            this.txtNacionalidad.Name = "txtNacionalidad";
             // 
-            // label25
+            // lblNacionalidad
             // 
-            resources.ApplyResources(this.label25, "label25");
-            this.label25.Name = "label25";
+            resources.ApplyResources(this.lblNacionalidad, "lblNacionalidad");
+            this.lblNacionalidad.Name = "lblNacionalidad";
             // 
-            // button2
+            // btnLimpiar
             // 
-            resources.ApplyResources(this.button2, "button2");
-            this.button2.Name = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.btnLimpiar, "btnLimpiar");
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnVolver
             // 
-            resources.ApplyResources(this.button3, "button3");
-            this.button3.Name = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.btnVolver, "btnVolver");
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.UseVisualStyleBackColor = true;
             // 
             // frmRegistrarUsuario
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnVolver);
+            this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnRegistrar);
+            this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmRegistrarUsuario";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.fin);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.fin);
             this.Load += new System.EventHandler(this.frmRegistrarUsuario_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -328,17 +335,17 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnRegistrar;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblTipoUsuari;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblFechaNaci;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblTelefono;
         private System.Windows.Forms.TextBox txtTelefono;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblDNI;
         private System.Windows.Forms.Label lblEmail;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblGenero;
         private System.Windows.Forms.TextBox txtGenero;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.TextBox txtDNI;
@@ -347,25 +354,25 @@
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox txtDep;
+        private System.Windows.Forms.Label lblDep;
+        private System.Windows.Forms.Label lblPiso;
+        private System.Windows.Forms.TextBox txtPiso;
+        private System.Windows.Forms.Label lblAltura;
+        private System.Windows.Forms.TextBox txtAltura;
+        private System.Windows.Forms.Label lblLocalidad;
+        private System.Windows.Forms.TextBox txtLocalidad;
+        private System.Windows.Forms.Label lblPartido;
+        private System.Windows.Forms.Label lblCodPostal;
+        private System.Windows.Forms.Label lblCalle;
+        private System.Windows.Forms.TextBox txtCalle;
+        private System.Windows.Forms.TextBox txtCodPostal;
+        private System.Windows.Forms.TextBox txtPartido;
+        private System.Windows.Forms.TextBox txtProvincia;
+        private System.Windows.Forms.Label lblProvincia;
+        private System.Windows.Forms.TextBox txtNacionalidad;
+        private System.Windows.Forms.Label lblNacionalidad;
+        private System.Windows.Forms.Button btnLimpiar;
+        private System.Windows.Forms.Button btnVolver;
     }
 }
