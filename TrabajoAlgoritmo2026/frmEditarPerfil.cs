@@ -21,5 +21,10 @@ namespace TrabajoAlgoritmo2026
         {
 
         }
+
+        private void txtCodPostal_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

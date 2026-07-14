@@ -143,6 +143,42 @@
   <data name="&gt;&gt;btnRegistrar.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="&gt;&gt;dtpFechaNacimiento.Name" xml:space="preserve">
+    <value>dtpFechaNacimiento</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaNacimiento.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaNacimiento.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaNacimiento.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbGenero.Name" xml:space="preserve">
+    <value>cmbGenero</value>
+  </data>
+  <data name="&gt;&gt;cmbGenero.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbGenero.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;cmbGenero.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbTipoUsuario.Name" xml:space="preserve">
+    <value>cmbTipoUsuario</value>
+  </data>
+  <data name="&gt;&gt;cmbTipoUsuario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbTipoUsuario.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;cmbTipoUsuario.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="&gt;&gt;lblTipoUsuari.Name" xml:space="preserve">
     <value>lblTipoUsuari</value>
   </data>
@@ -153,19 +189,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;lblTipoUsuari.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
-    <value>textBox2</value>
-  </data>
-  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;lblFechaNaci.Name" xml:space="preserve">
     <value>lblFechaNaci</value>
@@ -177,19 +201,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;lblFechaNaci.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
-    <value>textBox1</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="&gt;&gt;lblTelefono.Name" xml:space="preserve">
     <value>lblTelefono</value>
@@ -201,7 +213,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;lblTelefono.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="&gt;&gt;txtTelefono.Name" xml:space="preserve">
     <value>txtTelefono</value>
@@ -213,7 +225,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;txtTelefono.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="&gt;&gt;lblDNI.Name" xml:space="preserve">
     <value>lblDNI</value>
@@ -225,7 +237,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;lblDNI.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="&gt;&gt;lblEmail.Name" xml:space="preserve">
     <value>lblEmail</value>
@@ -237,7 +249,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;lblEmail.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="&gt;&gt;lblGenero.Name" xml:space="preserve">
     <value>lblGenero</value>
@@ -249,18 +261,6 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;lblGenero.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;txtGenero.Name" xml:space="preserve">
-    <value>txtGenero</value>
-  </data>
-  <data name="&gt;&gt;txtGenero.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtGenero.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;txtGenero.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
   <data name="&gt;&gt;txtEmail.Name" xml:space="preserve">
@@ -388,28 +388,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;lblTipoUsuari.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>118, 227</value>
-  </data>
-  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 20</value>
-  </data>
-  <data name="textBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>107</value>
-  </data>
-  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
-    <value>textBox2</value>
-  </data>
-  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="lblFechaNaci.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -439,28 +418,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;lblFechaNaci.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>118, 200</value>
-  </data>
-  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 20</value>
-  </data>
-  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>103</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
-    <value>textBox1</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="lblTelefono.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -490,7 +448,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;lblTelefono.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="txtTelefono.Location" type="System.Drawing.Point, System.Drawing">
     <value>118, 121</value>
@@ -499,10 +457,7 @@
     <value>117, 20</value>
   </data>
   <data name="txtTelefono.TabIndex" type="System.Int32, mscorlib">
-    <value>100</value>
-  </data>
-  <data name="txtTelefono.Text" xml:space="preserve">
-    <value>Ingrese Su Telefono</value>
+    <value>120</value>
   </data>
   <data name="&gt;&gt;txtTelefono.Name" xml:space="preserve">
     <value>txtTelefono</value>
@@ -514,7 +469,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;txtTelefono.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="lblDNI.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -544,7 +499,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;lblDNI.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="lblEmail.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -574,7 +529,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;lblEmail.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="lblGenero.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -604,30 +559,6 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;lblGenero.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="txtGenero.Location" type="System.Drawing.Point, System.Drawing">
-    <value>118, 174</value>
-  </data>
-  <data name="txtGenero.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 20</value>
-  </data>
-  <data name="txtGenero.TabIndex" type="System.Int32, mscorlib">
-    <value>102</value>
-  </data>
-  <data name="txtGenero.Text" xml:space="preserve">
-    <value>Ingrese su Genero</value>
-  </data>
-  <data name="&gt;&gt;txtGenero.Name" xml:space="preserve">
-    <value>txtGenero</value>
-  </data>
-  <data name="&gt;&gt;txtGenero.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtGenero.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;txtGenero.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
   <data name="txtEmail.Location" type="System.Drawing.Point, System.Drawing">
@@ -637,10 +568,7 @@
     <value>117, 20</value>
   </data>
   <data name="txtEmail.TabIndex" type="System.Int32, mscorlib">
-    <value>101</value>
-  </data>
-  <data name="txtEmail.Text" xml:space="preserve">
-    <value>Ingrese su Email</value>
+    <value>130</value>
   </data>
   <data name="&gt;&gt;txtEmail.Name" xml:space="preserve">
     <value>txtEmail</value>
@@ -661,10 +589,7 @@
     <value>117, 20</value>
   </data>
   <data name="txtDNI.TabIndex" type="System.Int32, mscorlib">
-    <value>99</value>
-  </data>
-  <data name="txtDNI.Text" xml:space="preserve">
-    <value>Ingrese su DNI</value>
+    <value>110</value>
   </data>
   <data name="&gt;&gt;txtDNI.Name" xml:space="preserve">
     <value>txtDNI</value>
@@ -685,10 +610,7 @@
     <value>117, 20</value>
   </data>
   <data name="txtApellido.TabIndex" type="System.Int32, mscorlib">
-    <value>98</value>
-  </data>
-  <data name="txtApellido.Text" xml:space="preserve">
-    <value>Ingrese su Apellido</value>
+    <value>100</value>
   </data>
   <data name="&gt;&gt;txtApellido.Name" xml:space="preserve">
     <value>txtApellido</value>
@@ -739,10 +661,7 @@
     <value>117, 20</value>
   </data>
   <data name="txtNombre.TabIndex" type="System.Int32, mscorlib">
-    <value>97</value>
-  </data>
-  <data name="txtNombre.Text" xml:space="preserve">
-    <value>Ingrese su Nombre</value>
+    <value>90</value>
   </data>
   <data name="&gt;&gt;txtNombre.Name" xml:space="preserve">
     <value>txtNombre</value>
@@ -786,6 +705,54 @@
   <data name="&gt;&gt;lblNombre.ZOrder" xml:space="preserve">
     <value>15</value>
   </data>
+  <data name="&gt;&gt;cmbLocalidad.Name" xml:space="preserve">
+    <value>cmbLocalidad</value>
+  </data>
+  <data name="&gt;&gt;cmbLocalidad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbLocalidad.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;cmbLocalidad.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbPartidos.Name" xml:space="preserve">
+    <value>cmbPartidos</value>
+  </data>
+  <data name="&gt;&gt;cmbPartidos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbPartidos.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;cmbPartidos.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbProvincias.Name" xml:space="preserve">
+    <value>cmbProvincias</value>
+  </data>
+  <data name="&gt;&gt;cmbProvincias.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbProvincias.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;cmbProvincias.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cmbNacionalidad.Name" xml:space="preserve">
+    <value>cmbNacionalidad</value>
+  </data>
+  <data name="&gt;&gt;cmbNacionalidad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbNacionalidad.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;cmbNacionalidad.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="&gt;&gt;txtDep.Name" xml:space="preserve">
     <value>txtDep</value>
   </data>
@@ -796,7 +763,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;txtDep.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>4</value>
   </data>
   <data name="&gt;&gt;lblDep.Name" xml:space="preserve">
     <value>lblDep</value>
@@ -808,7 +775,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;lblDep.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>5</value>
   </data>
   <data name="&gt;&gt;lblPiso.Name" xml:space="preserve">
     <value>lblPiso</value>
@@ -820,7 +787,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;lblPiso.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>6</value>
   </data>
   <data name="&gt;&gt;txtPiso.Name" xml:space="preserve">
     <value>txtPiso</value>
@@ -832,7 +799,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;txtPiso.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>7</value>
   </data>
   <data name="&gt;&gt;lblAltura.Name" xml:space="preserve">
     <value>lblAltura</value>
@@ -844,7 +811,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;lblAltura.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>8</value>
   </data>
   <data name="&gt;&gt;txtAltura.Name" xml:space="preserve">
     <value>txtAltura</value>
@@ -856,7 +823,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;txtAltura.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>9</value>
   </data>
   <data name="&gt;&gt;lblLocalidad.Name" xml:space="preserve">
     <value>lblLocalidad</value>
@@ -868,19 +835,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;lblLocalidad.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;txtLocalidad.Name" xml:space="preserve">
-    <value>txtLocalidad</value>
-  </data>
-  <data name="&gt;&gt;txtLocalidad.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtLocalidad.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;txtLocalidad.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>10</value>
   </data>
   <data name="&gt;&gt;lblPartido.Name" xml:space="preserve">
     <value>lblPartido</value>
@@ -892,7 +847,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;lblPartido.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>11</value>
   </data>
   <data name="&gt;&gt;lblCodPostal.Name" xml:space="preserve">
     <value>lblCodPostal</value>
@@ -904,7 +859,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;lblCodPostal.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>12</value>
   </data>
   <data name="&gt;&gt;lblCalle.Name" xml:space="preserve">
     <value>lblCalle</value>
@@ -916,7 +871,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;lblCalle.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>13</value>
   </data>
   <data name="&gt;&gt;txtCalle.Name" xml:space="preserve">
     <value>txtCalle</value>
@@ -928,7 +883,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;txtCalle.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>14</value>
   </data>
   <data name="&gt;&gt;txtCodPostal.Name" xml:space="preserve">
     <value>txtCodPostal</value>
@@ -940,31 +895,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;txtCodPostal.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;txtPartido.Name" xml:space="preserve">
-    <value>txtPartido</value>
-  </data>
-  <data name="&gt;&gt;txtPartido.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtPartido.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;txtPartido.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;txtProvincia.Name" xml:space="preserve">
-    <value>txtProvincia</value>
-  </data>
-  <data name="&gt;&gt;txtProvincia.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtProvincia.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;txtProvincia.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="&gt;&gt;lblProvincia.Name" xml:space="preserve">
     <value>lblProvincia</value>
@@ -976,18 +907,6 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;lblProvincia.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;txtNacionalidad.Name" xml:space="preserve">
-    <value>txtNacionalidad</value>
-  </data>
-  <data name="&gt;&gt;txtNacionalidad.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtNacionalidad.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;txtNacionalidad.ZOrder" xml:space="preserve">
     <value>16</value>
   </data>
   <data name="&gt;&gt;lblNacionalidad.Name" xml:space="preserve">
@@ -1027,13 +946,13 @@
     <value>2</value>
   </data>
   <data name="txtDep.Location" type="System.Drawing.Point, System.Drawing">
-    <value>118, 232</value>
+    <value>118, 229</value>
   </data>
   <data name="txtDep.Size" type="System.Drawing.Size, System.Drawing">
     <value>117, 20</value>
   </data>
   <data name="txtDep.TabIndex" type="System.Int32, mscorlib">
-    <value>198</value>
+    <value>240</value>
   </data>
   <data name="&gt;&gt;txtDep.Name" xml:space="preserve">
     <value>txtDep</value>
@@ -1045,7 +964,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;txtDep.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>4</value>
   </data>
   <data name="lblDep.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1075,7 +994,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;lblDep.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>5</value>
   </data>
   <data name="lblPiso.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1105,16 +1024,16 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;lblPiso.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>6</value>
   </data>
   <data name="txtPiso.Location" type="System.Drawing.Point, System.Drawing">
-    <value>118, 206</value>
+    <value>118, 203</value>
   </data>
   <data name="txtPiso.Size" type="System.Drawing.Size, System.Drawing">
     <value>117, 20</value>
   </data>
   <data name="txtPiso.TabIndex" type="System.Int32, mscorlib">
-    <value>197</value>
+    <value>231</value>
   </data>
   <data name="&gt;&gt;txtPiso.Name" xml:space="preserve">
     <value>txtPiso</value>
@@ -1126,7 +1045,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;txtPiso.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>7</value>
   </data>
   <data name="lblAltura.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1156,16 +1075,16 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;lblAltura.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>8</value>
   </data>
   <data name="txtAltura.Location" type="System.Drawing.Point, System.Drawing">
-    <value>118, 179</value>
+    <value>118, 175</value>
   </data>
   <data name="txtAltura.Size" type="System.Drawing.Size, System.Drawing">
     <value>117, 20</value>
   </data>
   <data name="txtAltura.TabIndex" type="System.Int32, mscorlib">
-    <value>196</value>
+    <value>221</value>
   </data>
   <data name="&gt;&gt;txtAltura.Name" xml:space="preserve">
     <value>txtAltura</value>
@@ -1177,7 +1096,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;txtAltura.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>9</value>
   </data>
   <data name="lblLocalidad.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1186,7 +1105,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblLocalidad.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 103</value>
+    <value>19, 101</value>
   </data>
   <data name="lblLocalidad.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 13</value>
@@ -1207,28 +1126,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;lblLocalidad.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="txtLocalidad.Location" type="System.Drawing.Point, System.Drawing">
-    <value>118, 100</value>
-  </data>
-  <data name="txtLocalidad.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 20</value>
-  </data>
-  <data name="txtLocalidad.TabIndex" type="System.Int32, mscorlib">
-    <value>193</value>
-  </data>
-  <data name="&gt;&gt;txtLocalidad.Name" xml:space="preserve">
-    <value>txtLocalidad</value>
-  </data>
-  <data name="&gt;&gt;txtLocalidad.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtLocalidad.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;txtLocalidad.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>10</value>
   </data>
   <data name="lblPartido.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1237,7 +1135,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblPartido.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 77</value>
+    <value>19, 73</value>
   </data>
   <data name="lblPartido.Size" type="System.Drawing.Size, System.Drawing">
     <value>40, 13</value>
@@ -1258,7 +1156,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;lblPartido.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>11</value>
   </data>
   <data name="lblCodPostal.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1267,7 +1165,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblCodPostal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 130</value>
+    <value>17, 129</value>
   </data>
   <data name="lblCodPostal.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 13</value>
@@ -1288,7 +1186,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;lblCodPostal.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>12</value>
   </data>
   <data name="lblCalle.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1297,7 +1195,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblCalle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 156</value>
+    <value>17, 156</value>
   </data>
   <data name="lblCalle.Size" type="System.Drawing.Size, System.Drawing">
     <value>30, 13</value>
@@ -1318,16 +1216,16 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;lblCalle.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>13</value>
   </data>
   <data name="txtCalle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>118, 153</value>
+    <value>118, 149</value>
   </data>
   <data name="txtCalle.Size" type="System.Drawing.Size, System.Drawing">
     <value>117, 20</value>
   </data>
   <data name="txtCalle.TabIndex" type="System.Int32, mscorlib">
-    <value>195</value>
+    <value>210</value>
   </data>
   <data name="&gt;&gt;txtCalle.Name" xml:space="preserve">
     <value>txtCalle</value>
@@ -1339,10 +1237,10 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;txtCalle.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>14</value>
   </data>
   <data name="txtCodPostal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>118, 127</value>
+    <value>118, 122</value>
   </data>
   <data name="txtCodPostal.Size" type="System.Drawing.Size, System.Drawing">
     <value>117, 20</value>
@@ -1360,49 +1258,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;txtCodPostal.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="txtPartido.Location" type="System.Drawing.Point, System.Drawing">
-    <value>118, 74</value>
-  </data>
-  <data name="txtPartido.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 20</value>
-  </data>
-  <data name="txtPartido.TabIndex" type="System.Int32, mscorlib">
-    <value>192</value>
-  </data>
-  <data name="&gt;&gt;txtPartido.Name" xml:space="preserve">
-    <value>txtPartido</value>
-  </data>
-  <data name="&gt;&gt;txtPartido.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtPartido.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;txtPartido.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="txtProvincia.Location" type="System.Drawing.Point, System.Drawing">
-    <value>118, 48</value>
-  </data>
-  <data name="txtProvincia.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 20</value>
-  </data>
-  <data name="txtProvincia.TabIndex" type="System.Int32, mscorlib">
-    <value>191</value>
-  </data>
-  <data name="&gt;&gt;txtProvincia.Name" xml:space="preserve">
-    <value>txtProvincia</value>
-  </data>
-  <data name="&gt;&gt;txtProvincia.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtProvincia.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;txtProvincia.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="lblProvincia.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1411,7 +1267,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblProvincia.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 51</value>
+    <value>17, 49</value>
   </data>
   <data name="lblProvincia.Size" type="System.Drawing.Size, System.Drawing">
     <value>51, 13</value>
@@ -1432,27 +1288,6 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;lblProvincia.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="txtNacionalidad.Location" type="System.Drawing.Point, System.Drawing">
-    <value>118, 22</value>
-  </data>
-  <data name="txtNacionalidad.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 20</value>
-  </data>
-  <data name="txtNacionalidad.TabIndex" type="System.Int32, mscorlib">
-    <value>188</value>
-  </data>
-  <data name="&gt;&gt;txtNacionalidad.Name" xml:space="preserve">
-    <value>txtNacionalidad</value>
-  </data>
-  <data name="&gt;&gt;txtNacionalidad.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtNacionalidad.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;txtNacionalidad.ZOrder" xml:space="preserve">
     <value>16</value>
   </data>
   <data name="lblNacionalidad.AutoSize" type="System.Boolean, mscorlib">
@@ -1462,7 +1297,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblNacionalidad.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 22</value>
+    <value>13, 22</value>
   </data>
   <data name="lblNacionalidad.Size" type="System.Drawing.Size, System.Drawing">
     <value>69, 13</value>
@@ -1539,6 +1374,153 @@
   <data name="&gt;&gt;btnVolver.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="cmbNacionalidad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 14</value>
+  </data>
+  <data name="cmbNacionalidad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 21</value>
+  </data>
+  <data name="cmbNacionalidad.TabIndex" type="System.Int32, mscorlib">
+    <value>170</value>
+  </data>
+  <data name="&gt;&gt;cmbNacionalidad.Name" xml:space="preserve">
+    <value>cmbNacionalidad</value>
+  </data>
+  <data name="&gt;&gt;cmbNacionalidad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbNacionalidad.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;cmbNacionalidad.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmbTipoUsuario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 227</value>
+  </data>
+  <data name="cmbTipoUsuario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 21</value>
+  </data>
+  <data name="cmbTipoUsuario.TabIndex" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="&gt;&gt;cmbTipoUsuario.Name" xml:space="preserve">
+    <value>cmbTipoUsuario</value>
+  </data>
+  <data name="&gt;&gt;cmbTipoUsuario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbTipoUsuario.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;cmbTipoUsuario.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbProvincias.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 41</value>
+  </data>
+  <data name="cmbProvincias.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 21</value>
+  </data>
+  <data name="cmbProvincias.TabIndex" type="System.Int32, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="&gt;&gt;cmbProvincias.Name" xml:space="preserve">
+    <value>cmbProvincias</value>
+  </data>
+  <data name="&gt;&gt;cmbProvincias.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbProvincias.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;cmbProvincias.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbPartidos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 73</value>
+  </data>
+  <data name="cmbPartidos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 21</value>
+  </data>
+  <data name="cmbPartidos.TabIndex" type="System.Int32, mscorlib">
+    <value>190</value>
+  </data>
+  <data name="&gt;&gt;cmbPartidos.Name" xml:space="preserve">
+    <value>cmbPartidos</value>
+  </data>
+  <data name="&gt;&gt;cmbPartidos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbPartidos.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;cmbPartidos.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmbLocalidad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 101</value>
+  </data>
+  <data name="cmbLocalidad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 21</value>
+  </data>
+  <data name="cmbLocalidad.TabIndex" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="&gt;&gt;cmbLocalidad.Name" xml:space="preserve">
+    <value>cmbLocalidad</value>
+  </data>
+  <data name="&gt;&gt;cmbLocalidad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbLocalidad.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;cmbLocalidad.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbGenero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 177</value>
+  </data>
+  <data name="cmbGenero.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 21</value>
+  </data>
+  <data name="cmbGenero.TabIndex" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="&gt;&gt;cmbGenero.Name" xml:space="preserve">
+    <value>cmbGenero</value>
+  </data>
+  <data name="&gt;&gt;cmbGenero.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbGenero.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;cmbGenero.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dtpFechaNacimiento.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 204</value>
+  </data>
+  <data name="dtpFechaNacimiento.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 20</value>
+  </data>
+  <data name="dtpFechaNacimiento.TabIndex" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaNacimiento.Name" xml:space="preserve">
+    <value>dtpFechaNacimiento</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaNacimiento.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaNacimiento.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaNacimiento.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -1546,13 +1528,13 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>511, 584</value>
+    <value>495, 584</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Registrar Usuario</value>
+    <value> Registrar Usuario</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>frmRegistrarUsuario</value>

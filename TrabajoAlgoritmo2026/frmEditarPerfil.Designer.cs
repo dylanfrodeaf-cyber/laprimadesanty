@@ -33,7 +33,6 @@
             this.btnCancelar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.lblTipoUsuari = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.lblFechaNaci = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.lblTelefono = new System.Windows.Forms.Label();
@@ -56,17 +55,18 @@
             this.lblAltura = new System.Windows.Forms.Label();
             this.txtAltura = new System.Windows.Forms.TextBox();
             this.lblLocalidad = new System.Windows.Forms.Label();
-            this.txtLocalidad = new System.Windows.Forms.TextBox();
             this.lblPartido = new System.Windows.Forms.Label();
             this.lblCodPostal = new System.Windows.Forms.Label();
             this.lblCalle = new System.Windows.Forms.Label();
             this.txtCalle = new System.Windows.Forms.TextBox();
             this.txtCodPostal = new System.Windows.Forms.TextBox();
-            this.txtPartido = new System.Windows.Forms.TextBox();
-            this.txtProvincia = new System.Windows.Forms.TextBox();
             this.lblProvincia = new System.Windows.Forms.Label();
-            this.txtNacionalidad = new System.Windows.Forms.TextBox();
             this.lblNacionalidad = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -103,8 +103,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.comboBox1);
             this.groupBox1.Controls.Add(this.lblTipoUsuari);
-            this.groupBox1.Controls.Add(this.textBox2);
             this.groupBox1.Controls.Add(this.lblFechaNaci);
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.lblTelefono);
@@ -135,13 +135,6 @@
             this.lblTipoUsuari.Size = new System.Drawing.Size(80, 13);
             this.lblTipoUsuari.TabIndex = 105;
             this.lblTipoUsuari.Text = "Tipo de usuario";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(118, 227);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(117, 20);
-            this.textBox2.TabIndex = 107;
             // 
             // lblFechaNaci
             // 
@@ -271,6 +264,10 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.comboBox4);
+            this.groupBox2.Controls.Add(this.comboBox5);
+            this.groupBox2.Controls.Add(this.comboBox3);
+            this.groupBox2.Controls.Add(this.comboBox2);
             this.groupBox2.Controls.Add(this.txtDep);
             this.groupBox2.Controls.Add(this.lblDep);
             this.groupBox2.Controls.Add(this.lblPiso);
@@ -278,16 +275,12 @@
             this.groupBox2.Controls.Add(this.lblAltura);
             this.groupBox2.Controls.Add(this.txtAltura);
             this.groupBox2.Controls.Add(this.lblLocalidad);
-            this.groupBox2.Controls.Add(this.txtLocalidad);
             this.groupBox2.Controls.Add(this.lblPartido);
             this.groupBox2.Controls.Add(this.lblCodPostal);
             this.groupBox2.Controls.Add(this.lblCalle);
             this.groupBox2.Controls.Add(this.txtCalle);
             this.groupBox2.Controls.Add(this.txtCodPostal);
-            this.groupBox2.Controls.Add(this.txtPartido);
-            this.groupBox2.Controls.Add(this.txtProvincia);
             this.groupBox2.Controls.Add(this.lblProvincia);
-            this.groupBox2.Controls.Add(this.txtNacionalidad);
             this.groupBox2.Controls.Add(this.lblNacionalidad);
             this.groupBox2.Location = new System.Drawing.Point(28, 283);
             this.groupBox2.Name = "groupBox2";
@@ -357,13 +350,6 @@
             this.lblLocalidad.TabIndex = 186;
             this.lblLocalidad.Text = "Localidad";
             // 
-            // txtLocalidad
-            // 
-            this.txtLocalidad.Location = new System.Drawing.Point(118, 100);
-            this.txtLocalidad.Name = "txtLocalidad";
-            this.txtLocalidad.Size = new System.Drawing.Size(117, 20);
-            this.txtLocalidad.TabIndex = 193;
-            // 
             // lblPartido
             // 
             this.lblPartido.AutoSize = true;
@@ -407,20 +393,7 @@
             this.txtCodPostal.Name = "txtCodPostal";
             this.txtCodPostal.Size = new System.Drawing.Size(117, 20);
             this.txtCodPostal.TabIndex = 194;
-            // 
-            // txtPartido
-            // 
-            this.txtPartido.Location = new System.Drawing.Point(118, 74);
-            this.txtPartido.Name = "txtPartido";
-            this.txtPartido.Size = new System.Drawing.Size(117, 20);
-            this.txtPartido.TabIndex = 192;
-            // 
-            // txtProvincia
-            // 
-            this.txtProvincia.Location = new System.Drawing.Point(118, 48);
-            this.txtProvincia.Name = "txtProvincia";
-            this.txtProvincia.Size = new System.Drawing.Size(117, 20);
-            this.txtProvincia.TabIndex = 191;
+            this.txtCodPostal.TextChanged += new System.EventHandler(this.txtCodPostal_TextChanged);
             // 
             // lblProvincia
             // 
@@ -432,13 +405,6 @@
             this.lblProvincia.TabIndex = 182;
             this.lblProvincia.Text = "Provincia";
             // 
-            // txtNacionalidad
-            // 
-            this.txtNacionalidad.Location = new System.Drawing.Point(118, 22);
-            this.txtNacionalidad.Name = "txtNacionalidad";
-            this.txtNacionalidad.Size = new System.Drawing.Size(117, 20);
-            this.txtNacionalidad.TabIndex = 188;
-            // 
             // lblNacionalidad
             // 
             this.lblNacionalidad.AutoSize = true;
@@ -448,6 +414,46 @@
             this.lblNacionalidad.Size = new System.Drawing.Size(69, 13);
             this.lblNacionalidad.TabIndex = 181;
             this.lblNacionalidad.Text = "Nacionalidad";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(118, 226);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(117, 21);
+            this.comboBox1.TabIndex = 106;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(118, 14);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(117, 21);
+            this.comboBox2.TabIndex = 199;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(118, 43);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(117, 21);
+            this.comboBox3.TabIndex = 200;
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Location = new System.Drawing.Point(118, 95);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(117, 21);
+            this.comboBox4.TabIndex = 202;
+            // 
+            // comboBox5
+            // 
+            this.comboBox5.FormattingEnabled = true;
+            this.comboBox5.Location = new System.Drawing.Point(118, 69);
+            this.comboBox5.Name = "comboBox5";
+            this.comboBox5.Size = new System.Drawing.Size(117, 21);
+            this.comboBox5.TabIndex = 201;
             // 
             // frmEditarPerfil
             // 
@@ -478,7 +484,6 @@
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label lblTipoUsuari;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label lblFechaNaci;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label lblTelefono;
@@ -501,16 +506,17 @@
         private System.Windows.Forms.Label lblAltura;
         private System.Windows.Forms.TextBox txtAltura;
         private System.Windows.Forms.Label lblLocalidad;
-        private System.Windows.Forms.TextBox txtLocalidad;
         private System.Windows.Forms.Label lblPartido;
         private System.Windows.Forms.Label lblCodPostal;
         private System.Windows.Forms.Label lblCalle;
         private System.Windows.Forms.TextBox txtCalle;
         private System.Windows.Forms.TextBox txtCodPostal;
-        private System.Windows.Forms.TextBox txtPartido;
-        private System.Windows.Forms.TextBox txtProvincia;
         private System.Windows.Forms.Label lblProvincia;
-        private System.Windows.Forms.TextBox txtNacionalidad;
         private System.Windows.Forms.Label lblNacionalidad;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox comboBox5;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox comboBox2;
     }
 }

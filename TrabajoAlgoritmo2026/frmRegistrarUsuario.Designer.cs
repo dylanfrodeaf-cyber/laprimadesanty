@@ -32,15 +32,12 @@
             this.btnRegistrar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.lblTipoUsuari = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.lblFechaNaci = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.lblTelefono = new System.Windows.Forms.Label();
             this.txtTelefono = new System.Windows.Forms.TextBox();
             this.lblDNI = new System.Windows.Forms.Label();
             this.lblEmail = new System.Windows.Forms.Label();
             this.lblGenero = new System.Windows.Forms.Label();
-            this.txtGenero = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtDNI = new System.Windows.Forms.TextBox();
             this.txtApellido = new System.Windows.Forms.TextBox();
@@ -55,19 +52,22 @@
             this.lblAltura = new System.Windows.Forms.Label();
             this.txtAltura = new System.Windows.Forms.TextBox();
             this.lblLocalidad = new System.Windows.Forms.Label();
-            this.txtLocalidad = new System.Windows.Forms.TextBox();
             this.lblPartido = new System.Windows.Forms.Label();
             this.lblCodPostal = new System.Windows.Forms.Label();
             this.lblCalle = new System.Windows.Forms.Label();
             this.txtCalle = new System.Windows.Forms.TextBox();
             this.txtCodPostal = new System.Windows.Forms.TextBox();
-            this.txtPartido = new System.Windows.Forms.TextBox();
-            this.txtProvincia = new System.Windows.Forms.TextBox();
             this.lblProvincia = new System.Windows.Forms.Label();
-            this.txtNacionalidad = new System.Windows.Forms.TextBox();
             this.lblNacionalidad = new System.Windows.Forms.Label();
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.btnVolver = new System.Windows.Forms.Button();
+            this.cmbNacionalidad = new System.Windows.Forms.ComboBox();
+            this.cmbTipoUsuario = new System.Windows.Forms.ComboBox();
+            this.cmbProvincias = new System.Windows.Forms.ComboBox();
+            this.cmbPartidos = new System.Windows.Forms.ComboBox();
+            this.cmbLocalidad = new System.Windows.Forms.ComboBox();
+            this.cmbGenero = new System.Windows.Forms.ComboBox();
+            this.dtpFechaNacimiento = new System.Windows.Forms.DateTimePicker();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -77,19 +77,20 @@
             resources.ApplyResources(this.btnRegistrar, "btnRegistrar");
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.dtpFechaNacimiento);
+            this.groupBox1.Controls.Add(this.cmbGenero);
+            this.groupBox1.Controls.Add(this.cmbTipoUsuario);
             this.groupBox1.Controls.Add(this.lblTipoUsuari);
-            this.groupBox1.Controls.Add(this.textBox2);
             this.groupBox1.Controls.Add(this.lblFechaNaci);
-            this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.lblTelefono);
             this.groupBox1.Controls.Add(this.txtTelefono);
             this.groupBox1.Controls.Add(this.lblDNI);
             this.groupBox1.Controls.Add(this.lblEmail);
             this.groupBox1.Controls.Add(this.lblGenero);
-            this.groupBox1.Controls.Add(this.txtGenero);
             this.groupBox1.Controls.Add(this.txtEmail);
             this.groupBox1.Controls.Add(this.txtDNI);
             this.groupBox1.Controls.Add(this.txtApellido);
@@ -105,21 +106,10 @@
             resources.ApplyResources(this.lblTipoUsuari, "lblTipoUsuari");
             this.lblTipoUsuari.Name = "lblTipoUsuari";
             // 
-            // textBox2
-            // 
-            resources.ApplyResources(this.textBox2, "textBox2");
-            this.textBox2.Name = "textBox2";
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
-            // 
             // lblFechaNaci
             // 
             resources.ApplyResources(this.lblFechaNaci, "lblFechaNaci");
             this.lblFechaNaci.Name = "lblFechaNaci";
-            // 
-            // textBox1
-            // 
-            resources.ApplyResources(this.textBox1, "textBox1");
-            this.textBox1.Name = "textBox1";
             // 
             // lblTelefono
             // 
@@ -145,11 +135,6 @@
             // 
             resources.ApplyResources(this.lblGenero, "lblGenero");
             this.lblGenero.Name = "lblGenero";
-            // 
-            // txtGenero
-            // 
-            resources.ApplyResources(this.txtGenero, "txtGenero");
-            this.txtGenero.Name = "txtGenero";
             // 
             // txtEmail
             // 
@@ -184,6 +169,10 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.cmbLocalidad);
+            this.groupBox2.Controls.Add(this.cmbPartidos);
+            this.groupBox2.Controls.Add(this.cmbProvincias);
+            this.groupBox2.Controls.Add(this.cmbNacionalidad);
             this.groupBox2.Controls.Add(this.txtDep);
             this.groupBox2.Controls.Add(this.lblDep);
             this.groupBox2.Controls.Add(this.lblPiso);
@@ -191,16 +180,12 @@
             this.groupBox2.Controls.Add(this.lblAltura);
             this.groupBox2.Controls.Add(this.txtAltura);
             this.groupBox2.Controls.Add(this.lblLocalidad);
-            this.groupBox2.Controls.Add(this.txtLocalidad);
             this.groupBox2.Controls.Add(this.lblPartido);
             this.groupBox2.Controls.Add(this.lblCodPostal);
             this.groupBox2.Controls.Add(this.lblCalle);
             this.groupBox2.Controls.Add(this.txtCalle);
             this.groupBox2.Controls.Add(this.txtCodPostal);
-            this.groupBox2.Controls.Add(this.txtPartido);
-            this.groupBox2.Controls.Add(this.txtProvincia);
             this.groupBox2.Controls.Add(this.lblProvincia);
-            this.groupBox2.Controls.Add(this.txtNacionalidad);
             this.groupBox2.Controls.Add(this.lblNacionalidad);
             resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Name = "groupBox2";
@@ -241,11 +226,6 @@
             resources.ApplyResources(this.lblLocalidad, "lblLocalidad");
             this.lblLocalidad.Name = "lblLocalidad";
             // 
-            // txtLocalidad
-            // 
-            resources.ApplyResources(this.txtLocalidad, "txtLocalidad");
-            this.txtLocalidad.Name = "txtLocalidad";
-            // 
             // lblPartido
             // 
             resources.ApplyResources(this.lblPartido, "lblPartido");
@@ -272,25 +252,10 @@
             resources.ApplyResources(this.txtCodPostal, "txtCodPostal");
             this.txtCodPostal.Name = "txtCodPostal";
             // 
-            // txtPartido
-            // 
-            resources.ApplyResources(this.txtPartido, "txtPartido");
-            this.txtPartido.Name = "txtPartido";
-            // 
-            // txtProvincia
-            // 
-            resources.ApplyResources(this.txtProvincia, "txtProvincia");
-            this.txtProvincia.Name = "txtProvincia";
-            // 
             // lblProvincia
             // 
             resources.ApplyResources(this.lblProvincia, "lblProvincia");
             this.lblProvincia.Name = "lblProvincia";
-            // 
-            // txtNacionalidad
-            // 
-            resources.ApplyResources(this.txtNacionalidad, "txtNacionalidad");
-            this.txtNacionalidad.Name = "txtNacionalidad";
             // 
             // lblNacionalidad
             // 
@@ -308,6 +273,70 @@
             resources.ApplyResources(this.btnVolver, "btnVolver");
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.UseVisualStyleBackColor = true;
+            // 
+            // cmbNacionalidad
+            // 
+            this.cmbNacionalidad.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cmbNacionalidad.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cmbNacionalidad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbNacionalidad.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbNacionalidad, "cmbNacionalidad");
+            this.cmbNacionalidad.Name = "cmbNacionalidad";
+            this.cmbNacionalidad.SelectedIndexChanged += new System.EventHandler(this.cmbNacionalidad_SelectedIndexChanged);
+            this.cmbNacionalidad.SelectionChangeCommitted += new System.EventHandler(this.cmbNacionalidad_SelectionChangeCommitted);
+            // 
+            // cmbTipoUsuario
+            // 
+            this.cmbTipoUsuario.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cmbTipoUsuario.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cmbTipoUsuario.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbTipoUsuario.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbTipoUsuario, "cmbTipoUsuario");
+            this.cmbTipoUsuario.Name = "cmbTipoUsuario";
+            // 
+            // cmbProvincias
+            // 
+            this.cmbProvincias.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cmbProvincias.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cmbProvincias.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbProvincias.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbProvincias, "cmbProvincias");
+            this.cmbProvincias.Name = "cmbProvincias";
+            this.cmbProvincias.SelectionChangeCommitted += new System.EventHandler(this.cmbProvincias_SelectionChangeCommitted);
+            // 
+            // cmbPartidos
+            // 
+            this.cmbPartidos.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cmbPartidos.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cmbPartidos.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbPartidos.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbPartidos, "cmbPartidos");
+            this.cmbPartidos.Name = "cmbPartidos";
+            this.cmbPartidos.SelectionChangeCommitted += new System.EventHandler(this.cmbPartidos_SelectionChangeCommitted);
+            // 
+            // cmbLocalidad
+            // 
+            this.cmbLocalidad.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cmbLocalidad.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cmbLocalidad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbLocalidad.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbLocalidad, "cmbLocalidad");
+            this.cmbLocalidad.Name = "cmbLocalidad";
+            // 
+            // cmbGenero
+            // 
+            this.cmbGenero.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cmbGenero.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cmbGenero.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbGenero.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbGenero, "cmbGenero");
+            this.cmbGenero.Name = "cmbGenero";
+            // 
+            // dtpFechaNacimiento
+            // 
+            this.dtpFechaNacimiento.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            resources.ApplyResources(this.dtpFechaNacimiento, "dtpFechaNacimiento");
+            this.dtpFechaNacimiento.Name = "dtpFechaNacimiento";
             // 
             // frmRegistrarUsuario
             // 
@@ -338,15 +367,12 @@
         private System.Windows.Forms.Button btnRegistrar;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label lblTipoUsuari;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label lblFechaNaci;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label lblTelefono;
         private System.Windows.Forms.TextBox txtTelefono;
         private System.Windows.Forms.Label lblDNI;
         private System.Windows.Forms.Label lblEmail;
         private System.Windows.Forms.Label lblGenero;
-        private System.Windows.Forms.TextBox txtGenero;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.TextBox txtDNI;
         private System.Windows.Forms.TextBox txtApellido;
@@ -361,18 +387,21 @@
         private System.Windows.Forms.Label lblAltura;
         private System.Windows.Forms.TextBox txtAltura;
         private System.Windows.Forms.Label lblLocalidad;
-        private System.Windows.Forms.TextBox txtLocalidad;
         private System.Windows.Forms.Label lblPartido;
         private System.Windows.Forms.Label lblCodPostal;
         private System.Windows.Forms.Label lblCalle;
         private System.Windows.Forms.TextBox txtCalle;
         private System.Windows.Forms.TextBox txtCodPostal;
-        private System.Windows.Forms.TextBox txtPartido;
-        private System.Windows.Forms.TextBox txtProvincia;
         private System.Windows.Forms.Label lblProvincia;
-        private System.Windows.Forms.TextBox txtNacionalidad;
         private System.Windows.Forms.Label lblNacionalidad;
         private System.Windows.Forms.Button btnLimpiar;
         private System.Windows.Forms.Button btnVolver;
+        private System.Windows.Forms.ComboBox cmbTipoUsuario;
+        private System.Windows.Forms.ComboBox cmbLocalidad;
+        private System.Windows.Forms.ComboBox cmbPartidos;
+        private System.Windows.Forms.ComboBox cmbProvincias;
+        private System.Windows.Forms.ComboBox cmbNacionalidad;
+        private System.Windows.Forms.ComboBox cmbGenero;
+        private System.Windows.Forms.DateTimePicker dtpFechaNacimiento;
     }
 }
