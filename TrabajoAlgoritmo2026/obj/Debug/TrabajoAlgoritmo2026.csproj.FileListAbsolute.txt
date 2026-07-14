@@ -1,0 +1,11 @@
+C:\Users\USER\OneDrive\Desktop\algo26\laprimadesanty\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.csproj.AssemblyReference.cache
+C:\Users\USER\OneDrive\Desktop\algo26\laprimadesanty\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.frmCambioContraseña.resources
+C:\Users\USER\OneDrive\Desktop\algo26\laprimadesanty\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.fmrLogin.resources
+C:\Users\USER\OneDrive\Desktop\algo26\laprimadesanty\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.Properties.Resources.resources
+C:\Users\USER\OneDrive\Desktop\algo26\laprimadesanty\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.csproj.GenerateResource.cache
+C:\Users\USER\OneDrive\Desktop\algo26\laprimadesanty\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.csproj.CoreCompileInputs.cache
+C:\Users\USER\OneDrive\Desktop\algo26\laprimadesanty\TrabajoAlgoritmo2026\bin\Debug\TrabajoAlgoritmo2026.exe.config
+C:\Users\USER\OneDrive\Desktop\algo26\laprimadesanty\TrabajoAlgoritmo2026\bin\Debug\TrabajoAlgoritmo2026.exe
+C:\Users\USER\OneDrive\Desktop\algo26\laprimadesanty\TrabajoAlgoritmo2026\bin\Debug\TrabajoAlgoritmo2026.pdb
+C:\Users\USER\OneDrive\Desktop\algo26\laprimadesanty\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.exe
+C:\Users\USER\OneDrive\Desktop\algo26\laprimadesanty\TrabajoAlgoritmo2026\obj\Debug\TrabajoAlgoritmo2026.pdb
