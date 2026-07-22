@@ -52,7 +52,7 @@
             this.txtUsuario.Location = new System.Drawing.Point(221, 112);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(283, 20);
-            this.txtUsuario.TabIndex = 1;
+            this.txtUsuario.TabIndex = 10;
             this.txtUsuario.TextChanged += new System.EventHandler(this.txtUsuario_TextChanged);
             // 
             // txtContraseña
@@ -60,7 +60,7 @@
             this.txtContraseña.Location = new System.Drawing.Point(221, 196);
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.Size = new System.Drawing.Size(283, 20);
-            this.txtContraseña.TabIndex = 3;
+            this.txtContraseña.TabIndex = 20;
             this.txtContraseña.TextChanged += new System.EventHandler(this.txtContraseña_TextChanged);
             // 
             // lblContraseña
@@ -78,7 +78,7 @@
             this.chkRecordarContra.Location = new System.Drawing.Point(221, 240);
             this.chkRecordarContra.Name = "chkRecordarContra";
             this.chkRecordarContra.Size = new System.Drawing.Size(124, 17);
-            this.chkRecordarContra.TabIndex = 4;
+            this.chkRecordarContra.TabIndex = 30;
             this.chkRecordarContra.Text = "recordad contraseña";
             this.chkRecordarContra.UseVisualStyleBackColor = true;
             // 
@@ -87,7 +87,7 @@
             this.btnAceptar.Location = new System.Drawing.Point(242, 300);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(248, 46);
-            this.btnAceptar.TabIndex = 5;
+            this.btnAceptar.TabIndex = 50;
             this.btnAceptar.Text = "aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
@@ -98,7 +98,7 @@
             this.lnkRecuperoContraseña.Location = new System.Drawing.Point(230, 273);
             this.lnkRecuperoContraseña.Name = "lnkRecuperoContraseña";
             this.lnkRecuperoContraseña.Size = new System.Drawing.Size(104, 13);
-            this.lnkRecuperoContraseña.TabIndex = 6;
+            this.lnkRecuperoContraseña.TabIndex = 40;
             this.lnkRecuperoContraseña.TabStop = true;
             this.lnkRecuperoContraseña.Text = "olvide mi contraseña";
             // 

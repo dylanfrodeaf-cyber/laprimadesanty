@@ -28,109 +28,119 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.lblCambiocontraseña = new System.Windows.Forms.Label();
+            this.lblContractual = new System.Windows.Forms.Label();
+            this.lblContraseñanueva = new System.Windows.Forms.Label();
+            this.lblConfirmarcontraseña = new System.Windows.Forms.Label();
+            this.btnCanselar = new System.Windows.Forms.Button();
+            this.btnGuardarcambios = new System.Windows.Forms.Button();
+            this.txtContraseñaacutal = new System.Windows.Forms.TextBox();
+            this.txtNuevacontraseña = new System.Windows.Forms.TextBox();
+            this.txtConfirmarcontraseña = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // label1
+            // lblCambiocontraseña
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(100, 44);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(143, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "CAMBIO DE CONTRASEÑA";
+            this.lblCambiocontraseña.AutoSize = true;
+            this.lblCambiocontraseña.Location = new System.Drawing.Point(252, 41);
+            this.lblCambiocontraseña.Name = "lblCambiocontraseña";
+            this.lblCambiocontraseña.Size = new System.Drawing.Size(143, 13);
+            this.lblCambiocontraseña.TabIndex = 0;
+            this.lblCambiocontraseña.Text = "CAMBIO DE CONTRASEÑA";
+            this.lblCambiocontraseña.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label2
+            // lblContractual
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(107, 77);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(93, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Contraseña actual";
+            this.lblContractual.AutoSize = true;
+            this.lblContractual.Location = new System.Drawing.Point(252, 73);
+            this.lblContractual.Name = "lblContractual";
+            this.lblContractual.Size = new System.Drawing.Size(93, 13);
+            this.lblContractual.TabIndex = 1;
+            this.lblContractual.Text = "Contraseña actual";
+            this.lblContractual.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label3
+            // lblContraseñanueva
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(105, 133);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(95, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Nueva contraseña";
+            this.lblContraseñanueva.AutoSize = true;
+            this.lblContraseñanueva.Location = new System.Drawing.Point(252, 122);
+            this.lblContraseñanueva.Name = "lblContraseñanueva";
+            this.lblContraseñanueva.Size = new System.Drawing.Size(95, 13);
+            this.lblContraseñanueva.TabIndex = 2;
+            this.lblContraseñanueva.Text = "Nueva contraseña";
+            this.lblContraseñanueva.Click += new System.EventHandler(this.label3_Click);
             // 
-            // label4
+            // lblConfirmarcontraseña
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(105, 185);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(107, 13);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Confirmar contraseña";
+            this.lblConfirmarcontraseña.AutoSize = true;
+            this.lblConfirmarcontraseña.Location = new System.Drawing.Point(252, 170);
+            this.lblConfirmarcontraseña.Name = "lblConfirmarcontraseña";
+            this.lblConfirmarcontraseña.Size = new System.Drawing.Size(107, 13);
+            this.lblConfirmarcontraseña.TabIndex = 3;
+            this.lblConfirmarcontraseña.Text = "Confirmar contraseña";
+            this.lblConfirmarcontraseña.Click += new System.EventHandler(this.label4_Click);
             // 
-            // button1
+            // btnCanselar
             // 
-            this.button1.Location = new System.Drawing.Point(218, 250);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 23);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Canselar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCanselar.Location = new System.Drawing.Point(392, 212);
+            this.btnCanselar.Name = "btnCanselar";
+            this.btnCanselar.Size = new System.Drawing.Size(93, 44);
+            this.btnCanselar.TabIndex = 50;
+            this.btnCanselar.Text = "Canselar";
+            this.btnCanselar.UseVisualStyleBackColor = true;
+            this.btnCanselar.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnGuardarcambios
             // 
-            this.button2.Location = new System.Drawing.Point(105, 250);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(107, 23);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Guardad Cambios";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnGuardarcambios.Location = new System.Drawing.Point(255, 212);
+            this.btnGuardarcambios.Name = "btnGuardarcambios";
+            this.btnGuardarcambios.Size = new System.Drawing.Size(131, 44);
+            this.btnGuardarcambios.TabIndex = 40;
+            this.btnGuardarcambios.Text = "Guardad Cambios";
+            this.btnGuardarcambios.UseVisualStyleBackColor = true;
+            this.btnGuardarcambios.Click += new System.EventHandler(this.button2_Click);
             // 
-            // textBox1
+            // txtContraseñaacutal
             // 
-            this.textBox1.Location = new System.Drawing.Point(103, 93);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(219, 20);
-            this.textBox1.TabIndex = 6;
+            this.txtContraseñaacutal.Location = new System.Drawing.Point(255, 89);
+            this.txtContraseñaacutal.Name = "txtContraseñaacutal";
+            this.txtContraseñaacutal.Size = new System.Drawing.Size(230, 20);
+            this.txtContraseñaacutal.TabIndex = 10;
+            this.txtContraseñaacutal.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox2
+            // txtNuevacontraseña
             // 
-            this.textBox2.Location = new System.Drawing.Point(105, 149);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(217, 20);
-            this.textBox2.TabIndex = 7;
+            this.txtNuevacontraseña.Location = new System.Drawing.Point(255, 138);
+            this.txtNuevacontraseña.Name = "txtNuevacontraseña";
+            this.txtNuevacontraseña.Size = new System.Drawing.Size(230, 20);
+            this.txtNuevacontraseña.TabIndex = 20;
+            this.txtNuevacontraseña.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // textBox3
+            // txtConfirmarcontraseña
             // 
-            this.textBox3.Location = new System.Drawing.Point(105, 201);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(217, 20);
-            this.textBox3.TabIndex = 8;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.txtConfirmarcontraseña.Location = new System.Drawing.Point(255, 186);
+            this.txtConfirmarcontraseña.Name = "txtConfirmarcontraseña";
+            this.txtConfirmarcontraseña.Size = new System.Drawing.Size(230, 20);
+            this.txtConfirmarcontraseña.TabIndex = 30;
+            this.txtConfirmarcontraseña.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // frmCambioContraseña
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtConfirmarcontraseña);
+            this.Controls.Add(this.txtNuevacontraseña);
+            this.Controls.Add(this.txtContraseñaacutal);
+            this.Controls.Add(this.btnGuardarcambios);
+            this.Controls.Add(this.btnCanselar);
+            this.Controls.Add(this.lblConfirmarcontraseña);
+            this.Controls.Add(this.lblContraseñanueva);
+            this.Controls.Add(this.lblContractual);
+            this.Controls.Add(this.lblCambiocontraseña);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmCambioContraseña";
-            this.Text = "frmCambioContraseña";
+            this.Text = "Cambio de Contraseña";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -138,14 +148,14 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label lblCambiocontraseña;
+        private System.Windows.Forms.Label lblContractual;
+        private System.Windows.Forms.Label lblContraseñanueva;
+        private System.Windows.Forms.Label lblConfirmarcontraseña;
+        private System.Windows.Forms.Button btnCanselar;
+        private System.Windows.Forms.Button btnGuardarcambios;
+        private System.Windows.Forms.TextBox txtContraseñaacutal;
+        private System.Windows.Forms.TextBox txtNuevacontraseña;
+        private System.Windows.Forms.TextBox txtConfirmarcontraseña;
     }
 }
