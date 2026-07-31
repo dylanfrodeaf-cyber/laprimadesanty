@@ -516,5 +516,61 @@ namespace TrabajoAlgoritmo2026
             MessageBox.Show("Usuario registrado correctamente.");
 
         }
+        // lo que va a borrar el limpiador/borrador 
+        private void LimpiarFormulario()
+        {
+            txtNombre.Clear();
+            txtApellido.Clear();
+            txtDNI.Clear();
+            txtTelefono.Clear();
+            txtEmail.Clear();
+            txtCodPostal.Clear();
+            txtCalle.Clear();
+            txtAltura.Clear();
+            txtPiso.Clear();
+            txtDep.Clear();
+
+            cmbGenero.SelectedIndex = 0;
+            cmbTipoUsuario.SelectedIndex = 0;
+            cmbNacionalidad.SelectedIndex = 0;
+            cmbProvincias.SelectedIndex = 0;
+            cmbPartidos.SelectedIndex = 0;
+            cmbLocalidad.SelectedIndex = 0;
+
+            dtpFechaNacimiento.Value = DateTime.Today;
+
+            txtNombre.Focus();
+        }
+        //limpiador de registro 
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+
+            {
+                DialogResult r = MessageBox.Show(
+                    "¿Desea Borrar todo?",
+                    "Confirmar",
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Question);
+
+                if (r == DialogResult.Yes)
+                {
+                    LimpiarFormulario();
+                }
+            }
+        }
+        // boton volver para atras borra todo?
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            DialogResult r = MessageBox.Show(
+        "¿Desea volver al menú principal?",
+        "Confirmar",
+        MessageBoxButtons.YesNo,
+        MessageBoxIcon.Question);
+
+            if (r == DialogResult.Yes)
+            {
+                this.Close();
+            }
+        }
     }
 }

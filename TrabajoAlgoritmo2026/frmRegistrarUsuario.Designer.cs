@@ -31,6 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmRegistrarUsuario));
             this.btnRegistrar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.dtpFechaNacimiento = new System.Windows.Forms.DateTimePicker();
+            this.cmbGenero = new System.Windows.Forms.ComboBox();
+            this.cmbTipoUsuario = new System.Windows.Forms.ComboBox();
             this.lblTipoUsuari = new System.Windows.Forms.Label();
             this.lblFechaNaci = new System.Windows.Forms.Label();
             this.lblTelefono = new System.Windows.Forms.Label();
@@ -45,6 +48,10 @@
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.lblNombre = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.cmbLocalidad = new System.Windows.Forms.ComboBox();
+            this.cmbPartidos = new System.Windows.Forms.ComboBox();
+            this.cmbProvincias = new System.Windows.Forms.ComboBox();
+            this.cmbNacionalidad = new System.Windows.Forms.ComboBox();
             this.txtDep = new System.Windows.Forms.TextBox();
             this.lblDep = new System.Windows.Forms.Label();
             this.lblPiso = new System.Windows.Forms.Label();
@@ -61,13 +68,6 @@
             this.lblNacionalidad = new System.Windows.Forms.Label();
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.btnVolver = new System.Windows.Forms.Button();
-            this.cmbNacionalidad = new System.Windows.Forms.ComboBox();
-            this.cmbTipoUsuario = new System.Windows.Forms.ComboBox();
-            this.cmbProvincias = new System.Windows.Forms.ComboBox();
-            this.cmbPartidos = new System.Windows.Forms.ComboBox();
-            this.cmbLocalidad = new System.Windows.Forms.ComboBox();
-            this.cmbGenero = new System.Windows.Forms.ComboBox();
-            this.dtpFechaNacimiento = new System.Windows.Forms.DateTimePicker();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -100,6 +100,30 @@
             resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
+            // 
+            // dtpFechaNacimiento
+            // 
+            this.dtpFechaNacimiento.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            resources.ApplyResources(this.dtpFechaNacimiento, "dtpFechaNacimiento");
+            this.dtpFechaNacimiento.Name = "dtpFechaNacimiento";
+            // 
+            // cmbGenero
+            // 
+            this.cmbGenero.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cmbGenero.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cmbGenero.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbGenero.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbGenero, "cmbGenero");
+            this.cmbGenero.Name = "cmbGenero";
+            // 
+            // cmbTipoUsuario
+            // 
+            this.cmbTipoUsuario.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cmbTipoUsuario.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cmbTipoUsuario.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbTipoUsuario.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbTipoUsuario, "cmbTipoUsuario");
+            this.cmbTipoUsuario.Name = "cmbTipoUsuario";
             // 
             // lblTipoUsuari
             // 
@@ -191,6 +215,46 @@
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
             // 
+            // cmbLocalidad
+            // 
+            this.cmbLocalidad.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cmbLocalidad.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cmbLocalidad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbLocalidad.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbLocalidad, "cmbLocalidad");
+            this.cmbLocalidad.Name = "cmbLocalidad";
+            // 
+            // cmbPartidos
+            // 
+            this.cmbPartidos.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cmbPartidos.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cmbPartidos.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbPartidos.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbPartidos, "cmbPartidos");
+            this.cmbPartidos.Name = "cmbPartidos";
+            this.cmbPartidos.SelectionChangeCommitted += new System.EventHandler(this.cmbPartidos_SelectionChangeCommitted);
+            // 
+            // cmbProvincias
+            // 
+            this.cmbProvincias.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cmbProvincias.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cmbProvincias.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbProvincias.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbProvincias, "cmbProvincias");
+            this.cmbProvincias.Name = "cmbProvincias";
+            this.cmbProvincias.SelectionChangeCommitted += new System.EventHandler(this.cmbProvincias_SelectionChangeCommitted);
+            // 
+            // cmbNacionalidad
+            // 
+            this.cmbNacionalidad.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cmbNacionalidad.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cmbNacionalidad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbNacionalidad.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbNacionalidad, "cmbNacionalidad");
+            this.cmbNacionalidad.Name = "cmbNacionalidad";
+            this.cmbNacionalidad.SelectedIndexChanged += new System.EventHandler(this.cmbNacionalidad_SelectedIndexChanged);
+            this.cmbNacionalidad.SelectionChangeCommitted += new System.EventHandler(this.cmbNacionalidad_SelectionChangeCommitted);
+            // 
             // txtDep
             // 
             resources.ApplyResources(this.txtDep, "txtDep");
@@ -267,76 +331,14 @@
             resources.ApplyResources(this.btnLimpiar, "btnLimpiar");
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // btnVolver
             // 
             resources.ApplyResources(this.btnVolver, "btnVolver");
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.UseVisualStyleBackColor = true;
-            // 
-            // cmbNacionalidad
-            // 
-            this.cmbNacionalidad.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cmbNacionalidad.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmbNacionalidad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbNacionalidad.FormattingEnabled = true;
-            resources.ApplyResources(this.cmbNacionalidad, "cmbNacionalidad");
-            this.cmbNacionalidad.Name = "cmbNacionalidad";
-            this.cmbNacionalidad.SelectedIndexChanged += new System.EventHandler(this.cmbNacionalidad_SelectedIndexChanged);
-            this.cmbNacionalidad.SelectionChangeCommitted += new System.EventHandler(this.cmbNacionalidad_SelectionChangeCommitted);
-            // 
-            // cmbTipoUsuario
-            // 
-            this.cmbTipoUsuario.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cmbTipoUsuario.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmbTipoUsuario.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbTipoUsuario.FormattingEnabled = true;
-            resources.ApplyResources(this.cmbTipoUsuario, "cmbTipoUsuario");
-            this.cmbTipoUsuario.Name = "cmbTipoUsuario";
-            // 
-            // cmbProvincias
-            // 
-            this.cmbProvincias.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cmbProvincias.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmbProvincias.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbProvincias.FormattingEnabled = true;
-            resources.ApplyResources(this.cmbProvincias, "cmbProvincias");
-            this.cmbProvincias.Name = "cmbProvincias";
-            this.cmbProvincias.SelectionChangeCommitted += new System.EventHandler(this.cmbProvincias_SelectionChangeCommitted);
-            // 
-            // cmbPartidos
-            // 
-            this.cmbPartidos.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cmbPartidos.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmbPartidos.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbPartidos.FormattingEnabled = true;
-            resources.ApplyResources(this.cmbPartidos, "cmbPartidos");
-            this.cmbPartidos.Name = "cmbPartidos";
-            this.cmbPartidos.SelectionChangeCommitted += new System.EventHandler(this.cmbPartidos_SelectionChangeCommitted);
-            // 
-            // cmbLocalidad
-            // 
-            this.cmbLocalidad.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cmbLocalidad.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmbLocalidad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbLocalidad.FormattingEnabled = true;
-            resources.ApplyResources(this.cmbLocalidad, "cmbLocalidad");
-            this.cmbLocalidad.Name = "cmbLocalidad";
-            // 
-            // cmbGenero
-            // 
-            this.cmbGenero.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cmbGenero.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmbGenero.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbGenero.FormattingEnabled = true;
-            resources.ApplyResources(this.cmbGenero, "cmbGenero");
-            this.cmbGenero.Name = "cmbGenero";
-            // 
-            // dtpFechaNacimiento
-            // 
-            this.dtpFechaNacimiento.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            resources.ApplyResources(this.dtpFechaNacimiento, "dtpFechaNacimiento");
-            this.dtpFechaNacimiento.Name = "dtpFechaNacimiento";
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
             // frmRegistrarUsuario
             // 

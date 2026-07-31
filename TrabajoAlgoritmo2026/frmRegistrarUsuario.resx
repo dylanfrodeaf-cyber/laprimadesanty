@@ -119,7 +119,7 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnRegistrar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 560</value>
+    <value>24, 535</value>
   </data>
   <data name="btnRegistrar.Size" type="System.Drawing.Size, System.Drawing">
     <value>88, 23</value>
@@ -336,7 +336,7 @@
     <value>15</value>
   </data>
   <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 12</value>
+    <value>24, 2</value>
   </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>277, 255</value>
@@ -358,6 +358,69 @@
   </data>
   <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="dtpFechaNacimiento.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 204</value>
+  </data>
+  <data name="dtpFechaNacimiento.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 20</value>
+  </data>
+  <data name="dtpFechaNacimiento.TabIndex" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaNacimiento.Name" xml:space="preserve">
+    <value>dtpFechaNacimiento</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaNacimiento.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaNacimiento.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaNacimiento.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbGenero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 177</value>
+  </data>
+  <data name="cmbGenero.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 21</value>
+  </data>
+  <data name="cmbGenero.TabIndex" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="&gt;&gt;cmbGenero.Name" xml:space="preserve">
+    <value>cmbGenero</value>
+  </data>
+  <data name="&gt;&gt;cmbGenero.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbGenero.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;cmbGenero.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmbTipoUsuario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 227</value>
+  </data>
+  <data name="cmbTipoUsuario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 21</value>
+  </data>
+  <data name="cmbTipoUsuario.TabIndex" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="&gt;&gt;cmbTipoUsuario.Name" xml:space="preserve">
+    <value>cmbTipoUsuario</value>
+  </data>
+  <data name="&gt;&gt;cmbTipoUsuario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbTipoUsuario.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;cmbTipoUsuario.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="lblTipoUsuari.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -922,7 +985,7 @@
     <value>17</value>
   </data>
   <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 289</value>
+    <value>24, 264</value>
   </data>
   <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>277, 265</value>
@@ -944,6 +1007,90 @@
   </data>
   <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="cmbLocalidad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 101</value>
+  </data>
+  <data name="cmbLocalidad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 21</value>
+  </data>
+  <data name="cmbLocalidad.TabIndex" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="&gt;&gt;cmbLocalidad.Name" xml:space="preserve">
+    <value>cmbLocalidad</value>
+  </data>
+  <data name="&gt;&gt;cmbLocalidad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbLocalidad.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;cmbLocalidad.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbPartidos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 73</value>
+  </data>
+  <data name="cmbPartidos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 21</value>
+  </data>
+  <data name="cmbPartidos.TabIndex" type="System.Int32, mscorlib">
+    <value>190</value>
+  </data>
+  <data name="&gt;&gt;cmbPartidos.Name" xml:space="preserve">
+    <value>cmbPartidos</value>
+  </data>
+  <data name="&gt;&gt;cmbPartidos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbPartidos.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;cmbPartidos.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmbProvincias.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 41</value>
+  </data>
+  <data name="cmbProvincias.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 21</value>
+  </data>
+  <data name="cmbProvincias.TabIndex" type="System.Int32, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="&gt;&gt;cmbProvincias.Name" xml:space="preserve">
+    <value>cmbProvincias</value>
+  </data>
+  <data name="&gt;&gt;cmbProvincias.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbProvincias.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;cmbProvincias.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbNacionalidad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 14</value>
+  </data>
+  <data name="cmbNacionalidad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 21</value>
+  </data>
+  <data name="cmbNacionalidad.TabIndex" type="System.Int32, mscorlib">
+    <value>170</value>
+  </data>
+  <data name="&gt;&gt;cmbNacionalidad.Name" xml:space="preserve">
+    <value>cmbNacionalidad</value>
+  </data>
+  <data name="&gt;&gt;cmbNacionalidad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbNacionalidad.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;cmbNacionalidad.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="txtDep.Location" type="System.Drawing.Point, System.Drawing">
     <value>118, 229</value>
@@ -1324,7 +1471,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnLimpiar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>121, 560</value>
+    <value>124, 535</value>
   </data>
   <data name="btnLimpiar.Size" type="System.Drawing.Size, System.Drawing">
     <value>88, 23</value>
@@ -1351,7 +1498,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnVolver.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 560</value>
+    <value>218, 535</value>
   </data>
   <data name="btnVolver.Size" type="System.Drawing.Size, System.Drawing">
     <value>83, 23</value>
@@ -1374,153 +1521,6 @@
   <data name="&gt;&gt;btnVolver.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="cmbNacionalidad.Location" type="System.Drawing.Point, System.Drawing">
-    <value>118, 14</value>
-  </data>
-  <data name="cmbNacionalidad.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 21</value>
-  </data>
-  <data name="cmbNacionalidad.TabIndex" type="System.Int32, mscorlib">
-    <value>170</value>
-  </data>
-  <data name="&gt;&gt;cmbNacionalidad.Name" xml:space="preserve">
-    <value>cmbNacionalidad</value>
-  </data>
-  <data name="&gt;&gt;cmbNacionalidad.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cmbNacionalidad.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;cmbNacionalidad.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="cmbTipoUsuario.Location" type="System.Drawing.Point, System.Drawing">
-    <value>118, 227</value>
-  </data>
-  <data name="cmbTipoUsuario.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 21</value>
-  </data>
-  <data name="cmbTipoUsuario.TabIndex" type="System.Int32, mscorlib">
-    <value>160</value>
-  </data>
-  <data name="&gt;&gt;cmbTipoUsuario.Name" xml:space="preserve">
-    <value>cmbTipoUsuario</value>
-  </data>
-  <data name="&gt;&gt;cmbTipoUsuario.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cmbTipoUsuario.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;cmbTipoUsuario.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="cmbProvincias.Location" type="System.Drawing.Point, System.Drawing">
-    <value>118, 41</value>
-  </data>
-  <data name="cmbProvincias.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 21</value>
-  </data>
-  <data name="cmbProvincias.TabIndex" type="System.Int32, mscorlib">
-    <value>180</value>
-  </data>
-  <data name="&gt;&gt;cmbProvincias.Name" xml:space="preserve">
-    <value>cmbProvincias</value>
-  </data>
-  <data name="&gt;&gt;cmbProvincias.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cmbProvincias.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;cmbProvincias.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="cmbPartidos.Location" type="System.Drawing.Point, System.Drawing">
-    <value>118, 73</value>
-  </data>
-  <data name="cmbPartidos.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 21</value>
-  </data>
-  <data name="cmbPartidos.TabIndex" type="System.Int32, mscorlib">
-    <value>190</value>
-  </data>
-  <data name="&gt;&gt;cmbPartidos.Name" xml:space="preserve">
-    <value>cmbPartidos</value>
-  </data>
-  <data name="&gt;&gt;cmbPartidos.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cmbPartidos.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;cmbPartidos.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="cmbLocalidad.Location" type="System.Drawing.Point, System.Drawing">
-    <value>118, 101</value>
-  </data>
-  <data name="cmbLocalidad.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 21</value>
-  </data>
-  <data name="cmbLocalidad.TabIndex" type="System.Int32, mscorlib">
-    <value>200</value>
-  </data>
-  <data name="&gt;&gt;cmbLocalidad.Name" xml:space="preserve">
-    <value>cmbLocalidad</value>
-  </data>
-  <data name="&gt;&gt;cmbLocalidad.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cmbLocalidad.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;cmbLocalidad.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cmbGenero.Location" type="System.Drawing.Point, System.Drawing">
-    <value>118, 177</value>
-  </data>
-  <data name="cmbGenero.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 21</value>
-  </data>
-  <data name="cmbGenero.TabIndex" type="System.Int32, mscorlib">
-    <value>140</value>
-  </data>
-  <data name="&gt;&gt;cmbGenero.Name" xml:space="preserve">
-    <value>cmbGenero</value>
-  </data>
-  <data name="&gt;&gt;cmbGenero.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cmbGenero.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;cmbGenero.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="dtpFechaNacimiento.Location" type="System.Drawing.Point, System.Drawing">
-    <value>118, 204</value>
-  </data>
-  <data name="dtpFechaNacimiento.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 20</value>
-  </data>
-  <data name="dtpFechaNacimiento.TabIndex" type="System.Int32, mscorlib">
-    <value>150</value>
-  </data>
-  <data name="&gt;&gt;dtpFechaNacimiento.Name" xml:space="preserve">
-    <value>dtpFechaNacimiento</value>
-  </data>
-  <data name="&gt;&gt;dtpFechaNacimiento.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dtpFechaNacimiento.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;dtpFechaNacimiento.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -1528,7 +1528,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>495, 584</value>
+    <value>457, 564</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

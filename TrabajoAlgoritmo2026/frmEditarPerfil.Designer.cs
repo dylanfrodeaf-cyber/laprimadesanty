@@ -32,15 +32,16 @@
             this.btnGuardarCambios = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.dtpFechaNacimiento = new System.Windows.Forms.DateTimePicker();
+            this.cmbGenero = new System.Windows.Forms.ComboBox();
+            this.cmbTipoUsuario = new System.Windows.Forms.ComboBox();
             this.lblTipoUsuari = new System.Windows.Forms.Label();
             this.lblFechaNaci = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.lblTelefono = new System.Windows.Forms.Label();
             this.txtTelefono = new System.Windows.Forms.TextBox();
             this.lblDNI = new System.Windows.Forms.Label();
             this.lblEmail = new System.Windows.Forms.Label();
             this.lblGenero = new System.Windows.Forms.Label();
-            this.txtGenero = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtDNI = new System.Windows.Forms.TextBox();
             this.txtApellido = new System.Windows.Forms.TextBox();
@@ -48,6 +49,10 @@
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.lblNombre = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.cmbLocalidad = new System.Windows.Forms.ComboBox();
+            this.cmbPartidos = new System.Windows.Forms.ComboBox();
+            this.cmbProvincias = new System.Windows.Forms.ComboBox();
+            this.cmbNacionalidad = new System.Windows.Forms.ComboBox();
             this.txtDep = new System.Windows.Forms.TextBox();
             this.lblDep = new System.Windows.Forms.Label();
             this.lblPiso = new System.Windows.Forms.Label();
@@ -62,11 +67,6 @@
             this.txtCodPostal = new System.Windows.Forms.TextBox();
             this.lblProvincia = new System.Windows.Forms.Label();
             this.lblNacionalidad = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -103,16 +103,16 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.dtpFechaNacimiento);
+            this.groupBox1.Controls.Add(this.cmbGenero);
+            this.groupBox1.Controls.Add(this.cmbTipoUsuario);
             this.groupBox1.Controls.Add(this.lblTipoUsuari);
             this.groupBox1.Controls.Add(this.lblFechaNaci);
-            this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.lblTelefono);
             this.groupBox1.Controls.Add(this.txtTelefono);
             this.groupBox1.Controls.Add(this.lblDNI);
             this.groupBox1.Controls.Add(this.lblEmail);
             this.groupBox1.Controls.Add(this.lblGenero);
-            this.groupBox1.Controls.Add(this.txtGenero);
             this.groupBox1.Controls.Add(this.txtEmail);
             this.groupBox1.Controls.Add(this.txtDNI);
             this.groupBox1.Controls.Add(this.txtApellido);
@@ -122,9 +122,39 @@
             this.groupBox1.Location = new System.Drawing.Point(28, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(277, 255);
-            this.groupBox1.TabIndex = 232;
+            this.groupBox1.TabIndex = 234;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos Personales";
+            // 
+            // dtpFechaNacimiento
+            // 
+            this.dtpFechaNacimiento.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpFechaNacimiento.Location = new System.Drawing.Point(118, 204);
+            this.dtpFechaNacimiento.Name = "dtpFechaNacimiento";
+            this.dtpFechaNacimiento.Size = new System.Drawing.Size(117, 20);
+            this.dtpFechaNacimiento.TabIndex = 150;
+            // 
+            // cmbGenero
+            // 
+            this.cmbGenero.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cmbGenero.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cmbGenero.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbGenero.FormattingEnabled = true;
+            this.cmbGenero.Location = new System.Drawing.Point(118, 177);
+            this.cmbGenero.Name = "cmbGenero";
+            this.cmbGenero.Size = new System.Drawing.Size(117, 21);
+            this.cmbGenero.TabIndex = 140;
+            // 
+            // cmbTipoUsuario
+            // 
+            this.cmbTipoUsuario.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cmbTipoUsuario.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cmbTipoUsuario.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbTipoUsuario.FormattingEnabled = true;
+            this.cmbTipoUsuario.Location = new System.Drawing.Point(118, 227);
+            this.cmbTipoUsuario.Name = "cmbTipoUsuario";
+            this.cmbTipoUsuario.Size = new System.Drawing.Size(117, 21);
+            this.cmbTipoUsuario.TabIndex = 160;
             // 
             // lblTipoUsuari
             // 
@@ -146,13 +176,6 @@
             this.lblFechaNaci.TabIndex = 104;
             this.lblFechaNaci.Text = "Fecha Nacimiento";
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(118, 200);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(117, 20);
-            this.textBox1.TabIndex = 103;
-            // 
             // lblTelefono
             // 
             this.lblTelefono.AutoSize = true;
@@ -168,8 +191,7 @@
             this.txtTelefono.Location = new System.Drawing.Point(118, 121);
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(117, 20);
-            this.txtTelefono.TabIndex = 100;
-            this.txtTelefono.Text = "Ingrese Su Telefono";
+            this.txtTelefono.TabIndex = 120;
             // 
             // lblDNI
             // 
@@ -201,37 +223,26 @@
             this.lblGenero.TabIndex = 93;
             this.lblGenero.Text = "Genero";
             // 
-            // txtGenero
-            // 
-            this.txtGenero.Location = new System.Drawing.Point(118, 174);
-            this.txtGenero.Name = "txtGenero";
-            this.txtGenero.Size = new System.Drawing.Size(117, 20);
-            this.txtGenero.TabIndex = 102;
-            this.txtGenero.Text = "Ingrese su Genero";
-            // 
             // txtEmail
             // 
             this.txtEmail.Location = new System.Drawing.Point(118, 148);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(117, 20);
-            this.txtEmail.TabIndex = 101;
-            this.txtEmail.Text = "Ingrese su Email";
+            this.txtEmail.TabIndex = 130;
             // 
             // txtDNI
             // 
             this.txtDNI.Location = new System.Drawing.Point(118, 95);
             this.txtDNI.Name = "txtDNI";
             this.txtDNI.Size = new System.Drawing.Size(117, 20);
-            this.txtDNI.TabIndex = 99;
-            this.txtDNI.Text = "Ingrese su DNI";
+            this.txtDNI.TabIndex = 110;
             // 
             // txtApellido
             // 
             this.txtApellido.Location = new System.Drawing.Point(118, 69);
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.Size = new System.Drawing.Size(117, 20);
-            this.txtApellido.TabIndex = 98;
-            this.txtApellido.Text = "Ingrese su Apellido";
+            this.txtApellido.TabIndex = 100;
             // 
             // lblApellido
             // 
@@ -248,9 +259,8 @@
             this.txtNombre.Location = new System.Drawing.Point(118, 43);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(117, 20);
-            this.txtNombre.TabIndex = 97;
+            this.txtNombre.TabIndex = 90;
             this.txtNombre.Tag = "";
-            this.txtNombre.Text = "Ingrese su Nombre";
             // 
             // lblNombre
             // 
@@ -264,10 +274,10 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.comboBox4);
-            this.groupBox2.Controls.Add(this.comboBox5);
-            this.groupBox2.Controls.Add(this.comboBox3);
-            this.groupBox2.Controls.Add(this.comboBox2);
+            this.groupBox2.Controls.Add(this.cmbLocalidad);
+            this.groupBox2.Controls.Add(this.cmbPartidos);
+            this.groupBox2.Controls.Add(this.cmbProvincias);
+            this.groupBox2.Controls.Add(this.cmbNacionalidad);
             this.groupBox2.Controls.Add(this.txtDep);
             this.groupBox2.Controls.Add(this.lblDep);
             this.groupBox2.Controls.Add(this.lblPiso);
@@ -282,19 +292,63 @@
             this.groupBox2.Controls.Add(this.txtCodPostal);
             this.groupBox2.Controls.Add(this.lblProvincia);
             this.groupBox2.Controls.Add(this.lblNacionalidad);
-            this.groupBox2.Location = new System.Drawing.Point(28, 283);
+            this.groupBox2.Location = new System.Drawing.Point(28, 273);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(277, 265);
-            this.groupBox2.TabIndex = 233;
+            this.groupBox2.TabIndex = 235;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Domicilio";
             // 
+            // cmbLocalidad
+            // 
+            this.cmbLocalidad.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cmbLocalidad.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cmbLocalidad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbLocalidad.FormattingEnabled = true;
+            this.cmbLocalidad.Location = new System.Drawing.Point(118, 101);
+            this.cmbLocalidad.Name = "cmbLocalidad";
+            this.cmbLocalidad.Size = new System.Drawing.Size(117, 21);
+            this.cmbLocalidad.TabIndex = 200;
+            // 
+            // cmbPartidos
+            // 
+            this.cmbPartidos.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cmbPartidos.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cmbPartidos.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbPartidos.FormattingEnabled = true;
+            this.cmbPartidos.Location = new System.Drawing.Point(118, 73);
+            this.cmbPartidos.Name = "cmbPartidos";
+            this.cmbPartidos.Size = new System.Drawing.Size(117, 21);
+            this.cmbPartidos.TabIndex = 190;
+            // 
+            // cmbProvincias
+            // 
+            this.cmbProvincias.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cmbProvincias.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cmbProvincias.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbProvincias.FormattingEnabled = true;
+            this.cmbProvincias.Location = new System.Drawing.Point(118, 41);
+            this.cmbProvincias.Name = "cmbProvincias";
+            this.cmbProvincias.Size = new System.Drawing.Size(117, 21);
+            this.cmbProvincias.TabIndex = 180;
+            // 
+            // cmbNacionalidad
+            // 
+            this.cmbNacionalidad.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cmbNacionalidad.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cmbNacionalidad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbNacionalidad.FormattingEnabled = true;
+            this.cmbNacionalidad.Location = new System.Drawing.Point(118, 14);
+            this.cmbNacionalidad.Name = "cmbNacionalidad";
+            this.cmbNacionalidad.Size = new System.Drawing.Size(117, 21);
+            this.cmbNacionalidad.TabIndex = 170;
+            // 
             // txtDep
             // 
-            this.txtDep.Location = new System.Drawing.Point(118, 232);
+            this.txtDep.Location = new System.Drawing.Point(118, 229);
             this.txtDep.Name = "txtDep";
             this.txtDep.Size = new System.Drawing.Size(117, 20);
-            this.txtDep.TabIndex = 198;
+            this.txtDep.TabIndex = 240;
             // 
             // lblDep
             // 
@@ -318,10 +372,10 @@
             // 
             // txtPiso
             // 
-            this.txtPiso.Location = new System.Drawing.Point(118, 206);
+            this.txtPiso.Location = new System.Drawing.Point(118, 203);
             this.txtPiso.Name = "txtPiso";
             this.txtPiso.Size = new System.Drawing.Size(117, 20);
-            this.txtPiso.TabIndex = 197;
+            this.txtPiso.TabIndex = 231;
             // 
             // lblAltura
             // 
@@ -335,16 +389,16 @@
             // 
             // txtAltura
             // 
-            this.txtAltura.Location = new System.Drawing.Point(118, 179);
+            this.txtAltura.Location = new System.Drawing.Point(118, 175);
             this.txtAltura.Name = "txtAltura";
             this.txtAltura.Size = new System.Drawing.Size(117, 20);
-            this.txtAltura.TabIndex = 196;
+            this.txtAltura.TabIndex = 221;
             // 
             // lblLocalidad
             // 
             this.lblLocalidad.AutoSize = true;
             this.lblLocalidad.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lblLocalidad.Location = new System.Drawing.Point(13, 103);
+            this.lblLocalidad.Location = new System.Drawing.Point(19, 101);
             this.lblLocalidad.Name = "lblLocalidad";
             this.lblLocalidad.Size = new System.Drawing.Size(53, 13);
             this.lblLocalidad.TabIndex = 186;
@@ -354,7 +408,7 @@
             // 
             this.lblPartido.AutoSize = true;
             this.lblPartido.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lblPartido.Location = new System.Drawing.Point(19, 77);
+            this.lblPartido.Location = new System.Drawing.Point(19, 73);
             this.lblPartido.Name = "lblPartido";
             this.lblPartido.Size = new System.Drawing.Size(40, 13);
             this.lblPartido.TabIndex = 185;
@@ -364,7 +418,7 @@
             // 
             this.lblCodPostal.AutoSize = true;
             this.lblCodPostal.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lblCodPostal.Location = new System.Drawing.Point(19, 130);
+            this.lblCodPostal.Location = new System.Drawing.Point(17, 129);
             this.lblCodPostal.Name = "lblCodPostal";
             this.lblCodPostal.Size = new System.Drawing.Size(50, 13);
             this.lblCodPostal.TabIndex = 184;
@@ -374,7 +428,7 @@
             // 
             this.lblCalle.AutoSize = true;
             this.lblCalle.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lblCalle.Location = new System.Drawing.Point(19, 156);
+            this.lblCalle.Location = new System.Drawing.Point(17, 156);
             this.lblCalle.Name = "lblCalle";
             this.lblCalle.Size = new System.Drawing.Size(30, 13);
             this.lblCalle.TabIndex = 183;
@@ -382,24 +436,23 @@
             // 
             // txtCalle
             // 
-            this.txtCalle.Location = new System.Drawing.Point(118, 153);
+            this.txtCalle.Location = new System.Drawing.Point(118, 149);
             this.txtCalle.Name = "txtCalle";
             this.txtCalle.Size = new System.Drawing.Size(117, 20);
-            this.txtCalle.TabIndex = 195;
+            this.txtCalle.TabIndex = 210;
             // 
             // txtCodPostal
             // 
-            this.txtCodPostal.Location = new System.Drawing.Point(118, 127);
+            this.txtCodPostal.Location = new System.Drawing.Point(118, 122);
             this.txtCodPostal.Name = "txtCodPostal";
             this.txtCodPostal.Size = new System.Drawing.Size(117, 20);
             this.txtCodPostal.TabIndex = 194;
-            this.txtCodPostal.TextChanged += new System.EventHandler(this.txtCodPostal_TextChanged);
             // 
             // lblProvincia
             // 
             this.lblProvincia.AutoSize = true;
             this.lblProvincia.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lblProvincia.Location = new System.Drawing.Point(19, 51);
+            this.lblProvincia.Location = new System.Drawing.Point(17, 49);
             this.lblProvincia.Name = "lblProvincia";
             this.lblProvincia.Size = new System.Drawing.Size(51, 13);
             this.lblProvincia.TabIndex = 182;
@@ -409,57 +462,17 @@
             // 
             this.lblNacionalidad.AutoSize = true;
             this.lblNacionalidad.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lblNacionalidad.Location = new System.Drawing.Point(19, 22);
+            this.lblNacionalidad.Location = new System.Drawing.Point(13, 22);
             this.lblNacionalidad.Name = "lblNacionalidad";
             this.lblNacionalidad.Size = new System.Drawing.Size(69, 13);
             this.lblNacionalidad.TabIndex = 181;
             this.lblNacionalidad.Text = "Nacionalidad";
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(118, 226);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(117, 21);
-            this.comboBox1.TabIndex = 106;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(118, 14);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(117, 21);
-            this.comboBox2.TabIndex = 199;
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(118, 43);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(117, 21);
-            this.comboBox3.TabIndex = 200;
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(118, 95);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(117, 21);
-            this.comboBox4.TabIndex = 202;
-            // 
-            // comboBox5
-            // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(118, 69);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(117, 21);
-            this.comboBox5.TabIndex = 201;
-            // 
             // frmEditarPerfil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(581, 577);
+            this.ClientSize = new System.Drawing.Size(495, 577);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnCancelar);
@@ -483,15 +496,16 @@
         private System.Windows.Forms.Button btnGuardarCambios;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.DateTimePicker dtpFechaNacimiento;
+        private System.Windows.Forms.ComboBox cmbGenero;
+        private System.Windows.Forms.ComboBox cmbTipoUsuario;
         private System.Windows.Forms.Label lblTipoUsuari;
         private System.Windows.Forms.Label lblFechaNaci;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label lblTelefono;
         private System.Windows.Forms.TextBox txtTelefono;
         private System.Windows.Forms.Label lblDNI;
         private System.Windows.Forms.Label lblEmail;
         private System.Windows.Forms.Label lblGenero;
-        private System.Windows.Forms.TextBox txtGenero;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.TextBox txtDNI;
         private System.Windows.Forms.TextBox txtApellido;
@@ -499,6 +513,10 @@
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.ComboBox cmbLocalidad;
+        private System.Windows.Forms.ComboBox cmbPartidos;
+        private System.Windows.Forms.ComboBox cmbProvincias;
+        private System.Windows.Forms.ComboBox cmbNacionalidad;
         private System.Windows.Forms.TextBox txtDep;
         private System.Windows.Forms.Label lblDep;
         private System.Windows.Forms.Label lblPiso;
@@ -513,10 +531,5 @@
         private System.Windows.Forms.TextBox txtCodPostal;
         private System.Windows.Forms.Label lblProvincia;
         private System.Windows.Forms.Label lblNacionalidad;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox2;
     }
 }
