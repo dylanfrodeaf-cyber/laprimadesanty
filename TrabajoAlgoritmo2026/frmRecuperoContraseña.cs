@@ -57,7 +57,16 @@ namespace TrabajoAlgoritmo2026
         }
         private void txtCorreo_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (char.IsWhiteSpace(e.KeyChar))
+            if (char.IsLetterOrDigit(e.KeyChar) ||
+                e.KeyChar == '@' ||
+                e.KeyChar == '.' ||
+                e.KeyChar == '_' ||
+                e.KeyChar == '-' ||
+                char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else
             {
                 e.Handled = true;
             }
@@ -66,6 +75,29 @@ namespace TrabajoAlgoritmo2026
         private void btnCancelar_Click_1(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void lblIngresarmail_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtCorreo_Leave(object sender, EventArgs e)
+        {
+            if (txtCorreo.Text == "")
+            {
+                txtCorreo.Text = "Ingrese su correo";
+                txtCorreo.ForeColor = Color.Gray;
+            }
+        }
+
+        private void txtCorreo_Enter(object sender, EventArgs e)
+        {
+            if (txtCorreo.Text == "Ingrese su correo")
+            {
+                txtCorreo.Text = "";
+                txtCorreo.ForeColor = Color.Black;
+            }
         }
     }
 }

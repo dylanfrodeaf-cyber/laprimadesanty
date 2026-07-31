@@ -55,6 +55,7 @@
             this.lblIngresarmail.Size = new System.Drawing.Size(256, 24);
             this.lblIngresarmail.TabIndex = 1;
             this.lblIngresarmail.Text = "Ingrese su correo electronico";
+            this.lblIngresarmail.Click += new System.EventHandler(this.lblIngresarmail_Click);
             // 
             // chbRecordarcorreo
             // 
@@ -76,7 +77,9 @@
             this.txtCorreo.Size = new System.Drawing.Size(246, 29);
             this.txtCorreo.TabIndex = 3;
             this.txtCorreo.TextChanged += new System.EventHandler(this.txtCorreo_TextChanged);
+            this.txtCorreo.Enter += new System.EventHandler(this.txtCorreo_Enter);
             this.txtCorreo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCorreo_KeyPress);
+            this.txtCorreo.Leave += new System.EventHandler(this.txtCorreo_Leave);
             // 
             // btnBuscar
             // 
